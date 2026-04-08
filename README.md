@@ -1,2 +1,3 @@
-# map-tripoli
-اطلس ليبيا السياحي - خريطة طرابلس السياحية
+# map-libya
+tidclibya2026
+libyan minisrty of tourism

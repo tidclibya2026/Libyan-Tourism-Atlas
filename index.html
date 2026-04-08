@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>أطلس ليبيا السياحي - دمج 4 خرائط</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <style>
+        body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .info-panel { position: absolute; bottom: 20px; left: 10px; z-index: 1000; background: rgba(0,0,0,0.7); color: white; padding: 8px 12px; border-radius: 8px; font-size: 12px; pointer-events: none; }
+        .legend { background: white; padding: 8px 12px; border-radius: 8px; box-shadow: 0 1px 5px rgba(0,0,0,0.4); font-size: 12px; max-height: 80vh; overflow-y: auto; direction: rtl; }
+        .legend h4 { margin: 0 0 5px 0; font-size: 14px; }
+        .legend-item { display: flex; align-items: center; margin-bottom: 4px; }
+        .legend-color { width: 20px; height: 20px; border-radius: 4px; margin-left: 8px; }
+        .leaflet-control-layers { direction: rtl; }
+        .loading-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 2000; display: flex; justify-content: center; align-items: center; color: white; font-size: 24px; flex-direction: column; pointer-events: none; }
+        .loading-overlay p { background: rgba(0,0,0,0.8); padding: 12px 24px; border-radius: 40px; }
+        .popup-img { max-width: 100%; max-height: 150px; margin-top: 8px; border-radius: 6px; }
+        .custom-marker-icon { display: flex; align-items: center; justify-content: center; border-radius: 50%; color: white; font-weight: bold; font-size: 14px; box-shadow: 0 2px 5px rgba(0,0,0,0.3); border: 2px solid white; width: 28px; height: 28px; }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<div id="loadingOverlay" class="loading-overlay">
+    <p>⏳ جاري تحميل الخرائط الأربع والصور ...</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-omnivore/0.3.4/leaflet-omnivore.min.js"></script>
+
+<script>
+    // --------------------------------------------------------------
+    // تهيئة الخريطة
+    // --------------------------------------------------------------
+    const map = L.map('map').setView([28.5, 17.0], 6);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; CartoDB',
+        subdomains: 'abcd',
+        maxZoom: 18,
+        minZoom: 4
+    }).addTo(map);
+
+    // تعريف الألوان حسب المصدر (الخريطة الأصلية)
+    const sourceColors = {
+        'القرى والمنتجعات': '#e67e22',
+        'الفنادق والمشاريع': '#e53935',
+        'المطاعم (طرابلس)': '#fb8c00',
+        'المواقع الأثرية والتراث العالمي': '#1e88e5'
+    };
+    
+    const sourceLabels = {
+        'القرى والمنتجعات': '🏖️ قرى ومنتجعات',
+        'الفنادق والمشاريع': '🏨 فنادق ومشاريع سياحية',
+        'المطاعم (طرابلس)': '🍽️ مطاعم طرابلس',
+        'المواقع الأثرية والتراث العالمي': '🏛️ آثار وتراث عالمي'
+    };
+    
+    // مجموعات عنقودية لكل مصدر
+    const clusterGroups = {};
+    const overlayControl = {};
+    
+    for (const [source, label] of Object.entries(sourceLabels)) {
+        const cluster = L.markerClusterGroup({
+            chunkedLoading: true,
+            maxClusterRadius: 50,
+            iconCreateFunction: function(cluster) {
+                const count = cluster.getChildCount();
+                const color = sourceColors[source];
+                return L.divIcon({
+                    html: `<div style="background-color:${color}; color:white; border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:16px; border:2px solid white;">${count}</div>`,
+                    iconSize: [36, 36]
+                });
+            }
+        });
+        clusterGroups[source] = cluster;
+        map.addLayer(cluster);
+        overlayControl[label] = cluster;
+    }
+    
+    // إنشاء أيقونة مخصصة لكل مصدر
+    function getMarkerIcon(source) {
+        const color = sourceColors[source];
+        let iconChar = '📍';
+        if (source.includes('قرى')) iconChar = '🏖️';
+        else if (source.includes('فنادق')) iconChar = '🏨';
+        else if (source.includes('مطاعم')) iconChar = '🍽️';
+        else if (source.includes('أثرية')) iconChar = '🏛️';
+        
+        return L.divIcon({
+            html: `<div class="custom-marker-icon" style="background-color:${color};">${iconChar}</div>`,
+            iconSize: [28, 28],
+            popupAnchor: [0, -12]
+        });
+    }
+    
+    // استخراج الصور من وصف HTML (لبيانات Google My Maps)
+    function extractImages(htmlString) {
+        if (!htmlString) return [];
+        const imgRegex = /<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
+        const matches = [];
+        let match;
+        while ((match = imgRegex.exec(htmlString)) !== null) {
+            matches.push(match[1]);
+        }
+        return matches;
+    }
+    
+    function stripHtml(html) {
+        if (!html) return '';
+        const temp = document.createElement('div');
+        temp.innerHTML = html;
+        return temp.textContent || temp.innerText || '';
+    }
+    
+    function escapeHtml(str) {
+        if (!str) return '';
+        return str.replace(/[&<>]/g, function(m) {
+            if (m === '&') return '&amp;';
+            if (m === '<') return '&lt;';
+            if (m === '>') return '&gt;';
+            return m;
+        });
+    }
+    
+    // بناء نافذة منبثقة
+    function buildPopupContent(feature, source) {
+        let name = feature.properties.name || 'موقع';
+        let rawDesc = feature.properties.description || '';
+        let cleanText = '';
+        let imageUrls = [];
+        
+        if (rawDesc) {
+            if (typeof rawDesc === 'object' && rawDesc.value) {
+                cleanText = stripHtml(rawDesc.value);
+                imageUrls = extractImages(rawDesc.value);
+            } else {
+                cleanText = stripHtml(String(rawDesc));
+                imageUrls = extractImages(String(rawDesc));
+            }
+        }
+        
+        if (!cleanText) cleanText = '📍 معلم سياحي';
+        if (cleanText.length > 300) cleanText = cleanText.substring(0, 300) + '...';
+        
+        let imagesHtml = '';
+        if (imageUrls.length > 0) {
+            imagesHtml = '<div style="margin-top:8px;">';
+            imageUrls.slice(0, 2).forEach(url => {
+                imagesHtml += `<img src="${escapeHtml(url)}" class="popup-img" style="max-width:100%; max-height:120px; margin-bottom:4px;" onerror="this.style.display='none'">`;
+            });
+            imagesHtml += '</div>';
+            if (imageUrls.length > 2) imagesHtml += `<small>+${imageUrls.length-2} صورة أخرى</small>`;
+        }
+        
+        return `
+            <div style="max-width:280px; font-family:Tahoma;">
+                <strong style="font-size:1.1rem;">${escapeHtml(name)}</strong><br>
+                <div style="font-size:0.8rem; margin-top:4px;">${escapeHtml(cleanText)}</div>
+                ${imagesHtml}
+                <div style="margin-top:4px; font-size:0.7rem; color:#777;">📁 ${sourceLabels[source]}</div>
+            </div>
+        `;
+    }
+    
+    // --------------------------------------------------------------
+    // تحميل ملفات KML بعد تصديرها من Google My Maps
+    // يجب عليك:
+    // 1. فتح كل خريطة في Google My Maps
+    // 2. النقر على "النقاط الثلاث" → "تصدير إلى KML/KMZ"
+    // 3. رفع الملفات الأربعة إلى مجلد data/ في هذا المستودع
+    // 4. تسميتها كما يلي:
+    //    - villages.kml
+    //    - hotels.kml
+    //    - restaurants.kml
+    //    - heritage.kml
+    // --------------------------------------------------------------
+    
+    const kmlFiles = [
+        { url: 'data/villages.kml', source: 'القرى والمنتجعات' },
+        { url: 'data/hotels.kml', source: 'الفنادق والمشاريع' },
+        { url: 'data/restaurants.kml', source: 'المطاعم (طرابلس)' },
+        { url: 'data/heritage.kml', source: 'المواقع الأثرية والتراث العالمي' }
+    ];
+    
+    let loadedCount = 0;
+    const totalFiles = kmlFiles.length;
+    
+    kmlFiles.forEach(file => {
+        omnivore.kml(file.url, null, function(layer) {
+            // معالجة المعالم المستخرجة من KML
+            layer.eachLayer(function(subLayer) {
+                if (subLayer.feature && subLayer.feature.geometry) {
+                    const feature = subLayer.feature;
+                    const latlng = subLayer.getLatLng();
+                    const source = file.source;
+                    const markerIcon = getMarkerIcon(source);
+                    const marker = L.marker(latlng, { icon: markerIcon });
+                    marker.bindPopup(buildPopupContent(feature, source));
+                    clusterGroups[source].addLayer(marker);
+                }
+            });
+            loadedCount++;
+            if (loadedCount === totalFiles) {
+                document.getElementById('loadingOverlay').style.display = 'none';
+                document.querySelector('.info-panel').innerHTML = `✅ تم تحميل ${totalFiles} خرائط بنجاح | إجمالي المواقع المعروضة: ${countAllMarkers()}`;
+            }
+        }).on('error', function() {
+            console.error(`فشل تحميل ${file.url}`);
+            loadedCount++;
+            if (loadedCount === totalFiles) {
+                document.getElementById('loadingOverlay').innerHTML = '<p style="background:#d32f2f;">⚠️ بعض الملفات لم يتم تحميلها. تأكد من وجود ملفات KML في مجلد data/</p>';
+                setTimeout(() => document.getElementById('loadingOverlay').style.display = 'none', 4000);
+            }
+        });
+    });
+    
+    function countAllMarkers() {
+        let total = 0;
+        for (const [source, cluster] of Object.entries(clusterGroups)) {
+            total += cluster.getLayers().length;
+        }
+        return total;
+    }
+    
+    // إضافة لوحة الطبقات ووسيلة الإيضاح
+    L.control.layers(null, overlayControl, { collapsed: false, position: 'topright' }).addTo(map);
+    
+    const legend = L.control({ position: 'bottomright' });
+    legend.onAdd = function() {
+        const div = L.DomUtil.create('div', 'legend');
+        div.innerHTML = '<h4>📋 المصادر</h4>';
+        for (const [source, label] of Object.entries(sourceLabels)) {
+            div.innerHTML += `<div class="legend-item"><div class="legend-color" style="background:${sourceColors[source]}"></div><span>${label}</span></div>`;
+        }
+        div.innerHTML += '<hr><small>✔️ الصور تظهر تلقائياً من بيانات Google My Maps</small>';
+        return div;
+    };
+    legend.addTo(map);
+    
+    const infoPanel = L.control({ position: 'bottomleft' });
+    infoPanel.onAdd = function() {
+        const div = L.DomUtil.create('div', 'info-panel');
+        div.innerHTML = '🔄 جاري تحميل الخرائط ...';
+        return div;
+    };
+    infoPanel.addTo(map);
+    
+    map.zoomControl.setPosition('topleft');
+    console.log('تم تهيئة الخريطة - انتظر تحميل ملفات KML');
+</script>
+</body>
+</html>

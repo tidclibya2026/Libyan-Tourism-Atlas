@@ -1,0 +1,6 @@
+Release: 2.5.0
+Featured sites: 22
+Unique IDs: 22
+Coordinate audit records: 11
+Missing HTML IDs referenced by JS: []
+Expected missing IDs: []

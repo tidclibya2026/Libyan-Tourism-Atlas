@@ -1,0 +1,180 @@
+{
+  "version": "2.4.0",
+  "updated_at": "2026-07-10",
+  "root": "assets/img/attractions",
+  "confirmed_assignments": [
+    {
+      "site_id": "LTA-FEAT-001",
+      "site_name_ar": "بحيرة قبر عون",
+      "base": "gaberoun-01",
+      "caption_ar": "مشهد لبحيرة قبر عون"
+    },
+    {
+      "site_id": "LTA-FEAT-001",
+      "site_name_ar": "بحيرة قبر عون",
+      "base": "gaberoun-02",
+      "caption_ar": "مشهد طبيعي لبحيرة قبر عون"
+    },
+    {
+      "site_id": "LTA-FEAT-001",
+      "site_name_ar": "بحيرة قبر عون",
+      "base": "gaberoun-023",
+      "caption_ar": "مشهد جوي للموقع"
+    },
+    {
+      "site_id": "LTA-FEAT-002",
+      "site_name_ar": "واو الناموس",
+      "base": "wau-namus-01",
+      "caption_ar": "مشهد من واو الناموس"
+    },
+    {
+      "site_id": "LTA-FEAT-002",
+      "site_name_ar": "واو الناموس",
+      "base": "wau-namus-02",
+      "caption_ar": "مشهد طبيعي من الموقع"
+    },
+    {
+      "site_id": "LTA-FEAT-002",
+      "site_name_ar": "واو الناموس",
+      "base": "wau-namus-03",
+      "caption_ar": "تفاصيل المشهد الجيومورفولوجي"
+    },
+    {
+      "site_id": "LTA-FEAT-002",
+      "site_name_ar": "واو الناموس",
+      "base": "wau-namus-04",
+      "caption_ar": "مشهد مائي ضمن نطاق الموقع"
+    },
+    {
+      "site_id": "LTA-FEAT-002",
+      "site_name_ar": "واو الناموس",
+      "base": "wau-namus5",
+      "caption_ar": "صورة إضافية من واو الناموس"
+    },
+    {
+      "site_id": "LTA-FEAT-002",
+      "site_name_ar": "واو الناموس",
+      "base": "wow alnamos",
+      "caption_ar": "مشهد إضافي من الموقع"
+    },
+    {
+      "site_id": "LTA-FEAT-002",
+      "site_name_ar": "واو الناموس",
+      "base": "wow alnamos1",
+      "caption_ar": "مشهد إضافي من الموقع"
+    },
+    {
+      "site_id": "LTA-FEAT-003",
+      "site_name_ar": "محمية الطيور المهاجرة – المرج",
+      "base": "Al Marj Bird Sanctuary",
+      "caption_ar": "محمية الطيور المهاجرة – المرج"
+    },
+    {
+      "site_id": "LTA-FEAT-004",
+      "site_name_ar": "عين الدبوسية",
+      "base": "eyn aldhabose",
+      "caption_ar": "مشهد من عين الدبوسية"
+    },
+    {
+      "site_id": "LTA-FEAT-004",
+      "site_name_ar": "عين الدبوسية",
+      "base": "eyn-aldhabose1",
+      "caption_ar": "تفاصيل طبيعية لعين الدبوسية"
+    },
+    {
+      "site_id": "LTA-FEAT-005",
+      "site_name_ar": "شلال بالفو",
+      "base": "bahvo",
+      "caption_ar": "مشهد من شلال بالفو"
+    },
+    {
+      "site_id": "LTA-FEAT-005",
+      "site_name_ar": "شلال بالفو",
+      "base": "bahvo1",
+      "caption_ar": "مشهد إضافي لشلال بالفو"
+    },
+    {
+      "site_id": "LTA-FEAT-011",
+      "site_name_ar": "بحيرة الجغبوب",
+      "base": "lake-jaghbob",
+      "caption_ar": "مشهد لبحيرة الجغبوب"
+    },
+    {
+      "site_id": "LTA-FEAT-011",
+      "site_name_ar": "بحيرة الجغبوب",
+      "base": "lake-jaghbob1",
+      "caption_ar": "مشهد إضافي لبحيرة الجغبوب"
+    },
+    {
+      "site_id": "LTA-FEAT-013",
+      "site_name_ar": "قلتة المياه – أكاكوس",
+      "base": "Qalta Akakus",
+      "caption_ar": "قلتة مائية ضمن نطاق أكاكوس"
+    },
+    {
+      "site_id": "LTA-FEAT-014",
+      "site_name_ar": "بحيرات نوضا",
+      "base": "noath",
+      "caption_ar": "مشهد من بحيرات نوضا"
+    },
+    {
+      "site_id": "LTA-FEAT-014",
+      "site_name_ar": "بحيرات نوضا",
+      "base": "noath1",
+      "caption_ar": "مشهد إضافي لبحيرات نوضا"
+    },
+    {
+      "site_id": "LTA-FEAT-015",
+      "site_name_ar": "بحيرة أم الماء",
+      "base": "umm-alma",
+      "caption_ar": "مشهد لبحيرة أم الماء"
+    },
+    {
+      "site_id": "LTA-FEAT-015",
+      "site_name_ar": "بحيرة أم الماء",
+      "base": "umm-alma1",
+      "caption_ar": "مشهد إضافي لبحيرة أم الماء"
+    },
+    {
+      "site_id": "LTA-FEAT-016",
+      "site_name_ar": "بحيرة طرونة",
+      "base": "lak-throna",
+      "caption_ar": "مشهد لبحيرة طرونة"
+    },
+    {
+      "site_id": "LTA-FEAT-016",
+      "site_name_ar": "بحيرة طرونة",
+      "base": "lak-throna1",
+      "caption_ar": "مشهد إضافي لبحيرة طرونة"
+    },
+    {
+      "site_id": "LTA-FEAT-016",
+      "site_name_ar": "بحيرة طرونة",
+      "base": "lak-throna2",
+      "caption_ar": "مشهد جوي أو إضافي لبحيرة طرونة"
+    },
+    {
+      "site_id": "LTA-FEAT-017",
+      "site_name_ar": "البردي",
+      "base": "bardia",
+      "caption_ar": "مشهد من موقع البردي"
+    },
+    {
+      "site_id": "LTA-FEAT-018",
+      "site_name_ar": "محمية وادي الكوف",
+      "base": "Wadi al-Kuf",
+      "caption_ar": "مشهد من محمية وادي الكوف"
+    }
+  ],
+  "unassigned": [
+    {
+      "base": "mahvo",
+      "reason_ar": "لم يُحدد الموقع بصورة مؤكدة."
+    }
+  ],
+  "notes": [
+    "تم اعتماد noath و noath1 لبحيرات نوضا بناءً على تأكيد المستخدم.",
+    "تمت إضافة Wadi al-Kuf إلى محمية وادي الكوف.",
+    "ملفات DJI القديمة لم تعد تستخدم بعد إعادة التسمية."
+  ]
+}

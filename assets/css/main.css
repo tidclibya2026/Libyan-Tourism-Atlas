@@ -1,0 +1,87 @@
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{
+  font-family:"Tajawal","Cairo","Segoe UI",Arial,sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+}
+button,input,select{font:inherit}
+button{cursor:pointer}
+
+/* Landing */
+.landing-page{overflow:hidden}
+.landing{
+  position:relative;
+  width:100vw;
+  height:100dvh;
+  min-height:100vh;
+  background:#eef4fa;
+  isolation:isolate;
+}
+.landing__hero{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  user-select:none;
+  -webkit-user-drag:none;
+}
+.landing__enter{
+  position:absolute;
+  left:50%;
+  top:62.5%;
+  transform:translate(-50%,-50%);
+  width:min(27vw,430px);
+  min-width:250px;
+  height:clamp(66px,6vw,92px);
+  border-radius:999px;
+  outline:none;
+}
+.landing__enter::after{
+  content:"";
+  position:absolute;
+  inset:-7px;
+  border-radius:inherit;
+  border:2px solid transparent;
+  transition:.2s ease;
+}
+.landing__enter:hover::after,
+.landing__enter:focus-visible::after{
+  border-color:#fff;
+  box-shadow:0 0 0 4px rgba(199,154,58,.35),0 14px 36px rgba(6,43,95,.28);
+}
+.landing__status{
+  position:absolute;
+  left:50%;
+  bottom:18px;
+  transform:translateX(-50%);
+  display:none;
+  align-items:center;
+  gap:10px;
+  color:#fff;
+  background:rgba(6,43,95,.9);
+  border:1px solid rgba(255,255,255,.25);
+  padding:10px 16px;
+  border-radius:999px;
+  backdrop-filter:blur(10px);
+  box-shadow:var(--shadow-md);
+  font-weight:800;
+}
+.spinner{
+  width:18px;height:18px;border-radius:50%;
+  border:2px solid rgba(255,255,255,.35);
+  border-top-color:var(--gold-500);
+  animation:spin .8s linear infinite;
+}
+.spinner--dark{border-color:#d9e6f2;border-top-color:var(--gold-500)}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+@media(max-aspect-ratio:4/5){
+  .landing__enter{width:min(62vw,430px);min-width:220px;top:63%}
+}
+@media(prefers-reduced-motion:reduce){
+  .spinner{animation:none}
+  .landing__enter::after{transition:none}
+}

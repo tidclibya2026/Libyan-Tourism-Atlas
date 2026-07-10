@@ -1,0 +1,6 @@
+Release: 2.4.0
+Featured sites: 18
+Unique site IDs: 18
+Sites with media references: 12
+Missing HTML IDs referenced by JS: []
+Expected missing IDs: []

@@ -1,0 +1,5 @@
+Release: 2.2.0
+HTML IDs: 47
+JS getElementById IDs: 42
+Missing IDs: []
+Expected: Missing IDs = []

@@ -1,0 +1,24 @@
+:root{
+  --navy-950:#041d42;
+  --navy-900:#062b5f;
+  --navy-800:#0a4384;
+  --blue-600:#0b6fb8;
+  --cyan-500:#08a6c6;
+  --gold-600:#b8892d;
+  --gold-500:#c79a3a;
+  --gold-300:#e3c47c;
+  --green-600:#138a6b;
+  --danger-600:#b42318;
+  --ink:#10233f;
+  --muted:#64748b;
+  --surface:#ffffff;
+  --surface-soft:#f7faff;
+  --bg:#eef4fa;
+  --line:#d8e4ef;
+  --shadow-sm:0 5px 16px rgba(6,43,95,.08);
+  --shadow-md:0 14px 34px rgba(6,43,95,.14);
+  --shadow-lg:0 24px 64px rgba(6,43,95,.20);
+  --radius-sm:12px;
+  --radius-md:18px;
+  --radius-lg:24px;
+}

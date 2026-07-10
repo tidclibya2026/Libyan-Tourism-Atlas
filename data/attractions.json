@@ -1,0 +1,1498 @@
+{
+  "version": "2.5.0",
+  "updated_at": "2026-07-10",
+  "title_ar": "سجل المواقع السياحية الطبيعية المميزة — الربط الإحداثي",
+  "matching_policy": {
+    "exact": "مطابقة اسم مباشر أو معرفات سجلات محددة.",
+    "alias": "مطابقة باستخدام اسم بديل معتمد دون تغيير اسم المصدر.",
+    "manual": "لا يتم الربط تلقائيًا؛ يلزم تحديد السجل الجغرافي الصحيح يدويًا."
+  },
+  "items": [
+    {
+      "id": "LTA-FEAT-001",
+      "geojson_name": "بحيرة قبر عون",
+      "name_ar": "بحيرة قبر عون",
+      "name_en": "Gaberoun Lake",
+      "aliases": [
+        "قبرعون",
+        "قبر عون",
+        "بحيرة قبرعون",
+        "بحيرة قبر عون"
+      ],
+      "category": "البحيرات الطبيعية والصحراوية",
+      "group": "البحيرات والمسطحات الطبيعية",
+      "region_ar": "فزان",
+      "locality_ar": "أوباري",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "موقع جذب طبيعي صحراوي مميز",
+      "description_ar": "تُدرج بحيرة قبر عون ضمن المواقع المميزة في أطلس ليبيا السياحي بوصفها نقطة جذب طبيعية صحراوية ذات قيمة بصرية وسياحية عالية. تجمع بطاقة الموقع بين السجل المكاني الأصلي والصور والبيانات الوصفية والمعلومات السياحية في ملف موحد قابل للتحديث. ويهدف هذا الإدراج إلى دعم التعريف بالموقع ضمن مسارات السياحة الصحراوية والاستكشاف والتصوير والسياحة البيئية، مع الحفاظ على الفصل بين البيانات الجغرافية الأصلية والمحتوى السياحي الإثرائي. لا تُعتمد القياسات الكمية الخاصة بالمساحة والعمق والملوحة إلا بعد مراجعتها من الجهة الفنية المختصة، بينما تبقى الإحداثيات والطبقة والمصدر وحالة السجل مرتبطة مباشرة ببيانات GeoJSON.",
+      "tourism_values": [
+        "سياحة صحراوية",
+        "تصوير طبيعي",
+        "استكشاف",
+        "سياحة بيئية"
+      ],
+      "metrics": [
+        {
+          "label": "المساحة",
+          "value": "قيد التحقق الفني"
+        },
+        {
+          "label": "العمق",
+          "value": "قيد التحقق الفني"
+        },
+        {
+          "label": "الملوحة",
+          "value": "قيد التحقق الفني"
+        },
+        {
+          "label": "مستوى الأهمية",
+          "value": "A — موقع مميز"
+        }
+      ],
+      "images": [
+        {
+          "base": "gaberoun-01",
+          "caption_ar": "مشهد لبحيرة قبر عون",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "gaberoun-02",
+          "caption_ar": "مشهد طبيعي لبحيرة قبر عون",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "gaberoun-023",
+          "caption_ar": "مشهد جوي للموقع",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched",
+        "exact_names": [
+          "بحيرة قبر عون"
+        ],
+        "feature_ids": [
+          560
+        ],
+        "note_ar": "مطابقة مباشرة مع السجل المكاني."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-002",
+      "geojson_name": "واو الناموس",
+      "name_ar": "واو الناموس",
+      "name_en": "Waw an Namus",
+      "aliases": [
+        "واو الناموس",
+        "واؤ الناموس",
+        "Waw an Namus"
+      ],
+      "category": "البحيرات الطبيعية والصحراوية",
+      "group": "البحيرات والمسطحات الطبيعية",
+      "region_ar": "جنوب ليبيا",
+      "locality_ar": "قيد التحقق التفصيلي",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "موقع طبيعي صحراوي مميز",
+      "description_ar": "يُعرض واو الناموس ضمن المواقع المميزة في الأطلس من خلال بطاقة موحدة تجمع البيانات المكانية والصور والمحتوى الوصفي وحالة التحقق. صُمم السجل ليكون قابلًا للتوسع بإضافة المؤشرات الجيومورفولوجية والبيئية ومعلومات الوصول والخدمات وموسمية الزيارة بعد اعتمادها فنيًا. ويساعد نظام الربط الجديد على إبقاء السجل السياحي مستقلًا عن ملف GeoJSON مع ربطه بالنقطة الأصلية، بما يضمن سهولة تحديث الصور والنصوص والبيانات الفنية دون تعديل قاعدة البيانات الجغرافية الأساسية.",
+      "tourism_values": [
+        "سياحة صحراوية",
+        "سياحة جيولوجية",
+        "تصوير طبيعي",
+        "رحلات استكشافية"
+      ],
+      "metrics": [
+        {
+          "label": "مستوى الأهمية",
+          "value": "A — موقع مميز"
+        },
+        {
+          "label": "البيانات الفنية",
+          "value": "قيد التحقق"
+        },
+        {
+          "label": "حالة الربط",
+          "value": "مطابق"
+        },
+        {
+          "label": "الصور",
+          "value": "4 صور"
+        }
+      ],
+      "images": [
+        {
+          "base": "wau-namus-01",
+          "caption_ar": "مشهد من واو الناموس",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "wau-namus-02",
+          "caption_ar": "مشهد طبيعي من الموقع",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "wau-namus-03",
+          "caption_ar": "تفاصيل المشهد الجيومورفولوجي",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "wau-namus-04",
+          "caption_ar": "مشهد مائي ضمن نطاق الموقع",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "wau-namus5",
+          "caption_ar": "صورة إضافية من واو الناموس",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "wow alnamos",
+          "caption_ar": "مشهد إضافي من الموقع",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "wow alnamos1",
+          "caption_ar": "مشهد إضافي من الموقع",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched",
+        "exact_names": [
+          "واو الناموس"
+        ],
+        "feature_ids": [
+          572
+        ],
+        "note_ar": "مطابقة مباشرة مع السجل المكاني."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-003",
+      "geojson_name": "محمية الطيور المهاجرة المرج",
+      "name_ar": "محمية الطيور المهاجرة – المرج",
+      "name_en": "",
+      "aliases": [
+        "محمية الطيور المهاجرة المرج",
+        "محمية الطيور بالمرج",
+        "طيور مهاجرة المرج",
+        "المرج للطيور المهاجرة"
+      ],
+      "category": "محميات وموائل الطيور المهاجرة",
+      "group": "المحميات والموائل البيئية",
+      "region_ar": "المرج",
+      "locality_ar": "قيد التحقق التفصيلي",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "موئل بيئي وموقع لمراقبة الطيور",
+      "description_ar": "يُدرج الموقع ضمن سجل المواقع البيئية المميزة بهدف توثيق موائل الطيور المهاجرة وإبراز فرص السياحة البيئية ومراقبة الطيور والتعليم الميداني. البطاقة الحالية جاهزة لربط الصور والمواسم والأنواع المرصودة والجهات المسؤولة عن الحماية والمتابعة، لكنها لا تنشر بيانات حساسة أو قوائم أنواع أو أرقامًا فنية قبل اعتمادها. يحتاج السجل إلى ربط يدوي نهائي بالنقطة أو المضلع الصحيح داخل قاعدة البيانات الجغرافية.",
+      "tourism_values": [
+        "مراقبة الطيور",
+        "سياحة بيئية",
+        "تعليم ميداني",
+        "توثيق التنوع الحيوي"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "Al Marj Bird Sanctuary",
+          "caption_ar": "محمية الطيور المهاجرة – المرج",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "note_ar": "لا توجد مطابقة اسمية مؤكدة في GeoJSON الحالي؛ يلزم تحديد السجل الصحيح يدويًا."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-004",
+      "geojson_name": "عين الدبوسية",
+      "name_ar": "عين الدبوسية",
+      "name_en": "",
+      "aliases": [
+        "عين الدبوسية",
+        "الدبوسية"
+      ],
+      "category": "العيون الطبيعية",
+      "group": "العيون والينابيع",
+      "region_ar": "قيد التحقق",
+      "locality_ar": "قيد التحقق",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "عين طبيعية ضمن مواقع الجذب المائي",
+      "description_ar": "تُعرض عين الدبوسية كبطاقة جذب مميزة مرتبطة بسجلين مكانيين يحملان الاسم نفسه داخل قاعدة GeoJSON. يحافظ النظام على السجل السياحي الموحد مع إبقاء السجلات المكانية الأصلية منفصلة، وهو ما يسمح بمراجعة التكرار أو اختلاف الإحداثيات لاحقًا. البطاقة جاهزة لإضافة الصور والخصائص المائية والوصول والخدمات والحالة البيئية بعد التحقق الفني.",
+      "tourism_values": [
+        "سياحة طبيعية",
+        "استكشاف",
+        "تصوير",
+        "زيارات ميدانية"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "eyn aldhabose",
+          "caption_ar": "مشهد من عين الدبوسية",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "eyn-aldhabose1",
+          "caption_ar": "تفاصيل طبيعية لعين الدبوسية",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched_multiple",
+        "exact_names": [
+          "عين الدبوسية"
+        ],
+        "feature_ids": [
+          709,
+          710
+        ],
+        "note_ar": "الاسم موجود في أكثر من سجل مكاني؛ تُحفظ جميع المطابقات لحين المراجعة."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": [],
+      "subsites": [
+        {
+          "name_ar": "عين الدبوسية — السجل الأول",
+          "feature_id": 709,
+          "latitude": 32.8470059,
+          "longitude": 22.2100905,
+          "status": "مطابقة اسمية مباشرة"
+        },
+        {
+          "name_ar": "عين الدبوسية — السجل الثاني",
+          "feature_id": 710,
+          "latitude": 32.8335931,
+          "longitude": 22.2805961,
+          "status": "مطابقة اسمية مباشرة"
+        }
+      ],
+      "coordinate_note_ar": "يوجد سجلان مستقلان بالاسم نفسه في GeoJSON؛ تم الاحتفاظ بكليهما لحين التحقق الميداني."
+    },
+    {
+      "id": "LTA-FEAT-005",
+      "geojson_name": "شلال بالفو",
+      "name_ar": "شلال بالفو",
+      "name_en": "",
+      "aliases": [
+        "شلال بالفو",
+        "بالفو",
+        "شلال وادي بالفو"
+      ],
+      "category": "الشلالات والمظاهر المائية",
+      "group": "الأودية والقلتات والشلالات",
+      "region_ar": "قيد التحقق",
+      "locality_ar": "قيد التحقق",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "شلال طبيعي وموقع جذب بصري",
+      "description_ar": "يُدرج شلال بالفو ضمن المواقع المميزة كعنصر جذب طبيعي يحتاج إلى استكمال الربط المكاني والتحقق من الاسم الرسمي والإحداثيات المعتمدة. البطاقة جاهزة لإضافة صور حقيقية، وصف موسمي للتدفق، معلومات الوصول، الحساسية البيئية وإرشادات السلامة. لا يربط النظام هذا السجل تلقائيًا بأي اسم مشابه في GeoJSON لتجنب المطابقة الخاطئة.",
+      "tourism_values": [
+        "تصوير طبيعي",
+        "تنزه",
+        "سياحة طبيعية",
+        "استكشاف"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "bahvo",
+          "caption_ar": "مشهد من شلال بالفو",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "bahvo1",
+          "caption_ar": "مشهد إضافي لشلال بالفو",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "note_ar": "توجد أسماء متشابهة في البيانات، لكن لا توجد مطابقة مؤكدة؛ الربط اليدوي مطلوب."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-006",
+      "geojson_name": "سد وادي كعام",
+      "name_ar": "سد وادي كعام",
+      "name_en": "",
+      "aliases": [
+        "سد وادي كعام",
+        "سد كعام",
+        "وادي كعام سد"
+      ],
+      "category": "السدود",
+      "group": "السدود والمنشآت المائية",
+      "region_ar": "وادي كعام",
+      "locality_ar": "قيد التحقق الإداري",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "منشأة مائية ذات قيمة مكانية وسياحية محتملة",
+      "description_ar": "يُدرج سد وادي كعام ضمن المواقع المميزة المرتبطة بالموارد المائية، مع ربط مباشر بالسجل الجغرافي. تتيح البطاقة إضافة بيانات السعة والتشغيل والحوض والتأثير البيئي ومعلومات الوصول بعد اعتمادها من الجهة المختصة. كما تسمح بإبراز القيمة التعليمية والمشهدية للموقع ضمن سياق إدارة الموارد المائية والتنمية المستدامة.",
+      "tourism_values": [
+        "زيارات تعليمية",
+        "تصوير",
+        "سياحة بيئية",
+        "توثيق الموارد المائية"
+      ],
+      "metrics": [],
+      "images": [],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched",
+        "exact_names": [
+          "سد وادي كعام"
+        ],
+        "feature_ids": [
+          657
+        ],
+        "note_ar": "مطابقة مباشرة مع السجل المكاني."
+      },
+      "media_status": "awaiting_images",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-007",
+      "geojson_name": "سد وادي الوشكة",
+      "name_ar": "سد وادي الوشكة",
+      "name_en": "",
+      "aliases": [
+        "سد وادي الوشكة",
+        "سد الوشكة",
+        "وادي الوشكة سد"
+      ],
+      "category": "السدود",
+      "group": "السدود والمنشآت المائية",
+      "region_ar": "الوشكة",
+      "locality_ar": "قيد التحقق الإداري",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "منشأة مائية ضمن موارد الأطلس الطبيعية",
+      "description_ar": "تربط بطاقة سد وادي الوشكة السجل السياحي والوصفي بالنقطة الجغرافية الأصلية مع إبقاء البيانات الفنية في حالة مراجعة. صُممت البطاقة لإضافة صور الموقع، معلومات الحوض، السعة، الاستخدامات، الوصول، القيود التشغيلية وحالة الزيارة عند توفر بيانات معتمدة. ويظهر الموقع ضمن طبقة السدود مع إمكانية البحث والفلترة والعرض كبطاقة مميزة.",
+      "tourism_values": [
+        "زيارات دراسية",
+        "توثيق",
+        "تصوير",
+        "تحليل مكاني"
+      ],
+      "metrics": [],
+      "images": [],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched",
+        "exact_names": [
+          "سد وادي الوشكة"
+        ],
+        "feature_ids": [
+          650
+        ],
+        "note_ar": "مطابقة مباشرة مع السجل المكاني."
+      },
+      "media_status": "awaiting_images",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-008",
+      "geojson_name": "جادور عين الزرقاء",
+      "name_ar": "جادور عين الزرقاء",
+      "name_en": "",
+      "aliases": [
+        "جادور عين الزرقاء",
+        "عين الزرقاء",
+        "جادور",
+        "جادور الزرقاء"
+      ],
+      "category": "العيون الطبيعية",
+      "group": "العيون والينابيع",
+      "region_ar": "قيد التحقق",
+      "locality_ar": "قيد التحقق",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "موقع مائي طبيعي يحتاج تثبيت الربط المكاني",
+      "description_ar": "يُدرج جادور عين الزرقاء كسجل جذب مميز جاهز لاستقبال الصور والبيانات الفنية والوصف السياحي. توجد أسماء متشابهة داخل قاعدة البيانات، لكن لا تُستخدم المطابقة التقريبية تلقائيًا لأن التشابه اللفظي لا يثبت وحدة الموقع. لذلك يبقى الربط المكاني في وضع يدوي إلى حين اعتماد النقطة الصحيحة.",
+      "tourism_values": [
+        "استكشاف",
+        "تصوير",
+        "سياحة طبيعية",
+        "توثيق مائي"
+      ],
+      "metrics": [],
+      "images": [],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "note_ar": "توجد أسماء مشابهة مثل العين الزرقاء، لكن الربط يحتاج تحققًا يدويًا."
+      },
+      "media_status": "awaiting_images",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-009",
+      "geojson_name": "عين الفرس",
+      "name_ar": "عين الفرس – غدامس",
+      "name_en": "",
+      "aliases": [
+        "عين الفرس",
+        "عين الفرس غدامس",
+        "عين الفرس – غدامس"
+      ],
+      "category": "العيون الطبيعية",
+      "group": "العيون والينابيع",
+      "region_ar": "غدامس",
+      "locality_ar": "غدامس",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "عين طبيعية مرتبطة بالبيئة الواحية",
+      "description_ar": "تُربط بطاقة عين الفرس – غدامس بسجل GeoJSON الذي يحمل الاسم المختصر «عين الفرس» من خلال نظام aliases. يسمح هذا الأسلوب بعرض الاسم السياحي الكامل في الواجهة مع الحفاظ على اسم المصدر الجغرافي دون تغييره. البطاقة جاهزة للصور، البيانات المائية، معلومات الوصول، العلاقة بالواحة والموروث المحلي، وحالة التحقق.",
+      "tourism_values": [
+        "سياحة واحية",
+        "تصوير",
+        "زيارات ثقافية",
+        "استكشاف"
+      ],
+      "metrics": [],
+      "images": [],
+      "geojson_match": {
+        "mode": "alias",
+        "status": "matched",
+        "exact_names": [
+          "عين الفرس"
+        ],
+        "feature_ids": [
+          737
+        ],
+        "note_ar": "مطابقة بالاسم المختصر الموجود في GeoJSON."
+      },
+      "media_status": "awaiting_images",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-010",
+      "geojson_name": "وادي موجهاج اكاكوس",
+      "name_ar": "وادي موجهاج – أكاكوس",
+      "name_en": "",
+      "aliases": [
+        "وادي موجهاج",
+        "موجهاج",
+        "وادي موجهاج اكاكوس",
+        "وادي موجهاج أكاكوس"
+      ],
+      "category": "الأودية ومصباتها",
+      "group": "الأودية والقلتات والشلالات",
+      "region_ar": "أكاكوس",
+      "locality_ar": "قيد التحقق التفصيلي",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "وادٍ طبيعي ضمن المشهد الصحراوي",
+      "description_ar": "يُدرج وادي موجهاج – أكاكوس ضمن المواقع المميزة المرتبطة بالمناظر الصحراوية والأودية الطبيعية. السجل جاهز لربط الصور والمسارات ومعلومات الوصول والخصائص الطبيعية، إلا أن المطابقة مع GeoJSON الحالي لم تُحسم اسميًا. لذلك يُحفظ الموقع في وضع الربط اليدوي لتجنب إسناده إلى وادٍ آخر يحمل اسمًا قريبًا.",
+      "tourism_values": [
+        "رحلات صحراوية",
+        "تصوير",
+        "استكشاف",
+        "توثيق طبيعي"
+      ],
+      "metrics": [],
+      "images": [],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "note_ar": "لا توجد مطابقة اسمية مؤكدة في السجل الحالي."
+      },
+      "media_status": "awaiting_images",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-011",
+      "geojson_name": "بحيرة الجغبوب",
+      "name_ar": "بحيرة الجغبوب",
+      "name_en": "",
+      "aliases": [
+        "بحيرة الجغبوب",
+        "الجغبوب بحيرة"
+      ],
+      "category": "البحيرات الطبيعية والصحراوية",
+      "group": "البحيرات والمسطحات الطبيعية",
+      "region_ar": "الجغبوب",
+      "locality_ar": "الجغبوب",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "مسطح مائي طبيعي ضمن شرق ليبيا",
+      "description_ar": "يُدرج سجل بحيرة الجغبوب كبطاقة جذب مميزة جاهزة لاستقبال الصور والبيانات الفنية والمعلومات البيئية. لم تُثبت مطابقة اسمية مباشرة مع GeoJSON الحالي، ولذلك لا يعتمد النظام نتيجة التشابه مع أسماء بحيرات أخرى. يتطلب الموقع تثبيت النقطة الصحيحة يدويًا قبل إظهاره كنقطة مرتبطة على الخريطة.",
+      "tourism_values": [
+        "سياحة طبيعية",
+        "تصوير",
+        "زيارات ميدانية",
+        "توثيق بيئي"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "lake-jaghbob",
+          "caption_ar": "مشهد لبحيرة الجغبوب",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "lake-jaghbob1",
+          "caption_ar": "مشهد إضافي لبحيرة الجغبوب",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "note_ar": "الربط المكاني النهائي يحتاج تحديد السجل الصحيح."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-012",
+      "geojson_name": "نبع أبولو",
+      "name_ar": "نبع أبولو – شحات",
+      "name_en": "",
+      "aliases": [
+        "نبع أبولو",
+        "نبع ابولو",
+        "نبع أبولو شحات",
+        "نبع ابولو شحات"
+      ],
+      "category": "العيون الطبيعية",
+      "group": "العيون والينابيع",
+      "region_ar": "شحات",
+      "locality_ar": "شحات",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "نبع طبيعي ذو سياق سياحي وثقافي",
+      "description_ar": "تستخدم البطاقة الاسم السياحي الكامل «نبع أبولو – شحات» مع ربطه بالسجل المكاني المختصر «نبع أبولو». هذا النموذج يوضح فائدة نظام aliases في توحيد العرض دون تغيير بيانات المصدر. البطاقة جاهزة للصور والمعلومات الطبيعية والسياقية ومعلومات الوصول والمصادر بعد المراجعة.",
+      "tourism_values": [
+        "سياحة طبيعية",
+        "سياحة ثقافية",
+        "تصوير",
+        "توثيق"
+      ],
+      "metrics": [],
+      "images": [],
+      "geojson_match": {
+        "mode": "alias",
+        "status": "matched",
+        "exact_names": [
+          "نبع أبولو"
+        ],
+        "feature_ids": [
+          837
+        ],
+        "note_ar": "مطابقة بالاسم المختصر الموجود في GeoJSON."
+      },
+      "media_status": "awaiting_images",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-013",
+      "geojson_name": "قلتة المياه اكاكوس",
+      "name_ar": "قلتة المياه – أكاكوس",
+      "name_en": "",
+      "aliases": [
+        "قلتة المياه",
+        "قلتة المياه اكاكوس",
+        "قلتة المياه أكاكوس",
+        "قلتة أكاكوس"
+      ],
+      "category": "البرك والبلطات والقلتات",
+      "group": "الأودية والقلتات والشلالات",
+      "region_ar": "أكاكوس",
+      "locality_ar": "قيد التحقق التفصيلي",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "قلتة مائية ضمن البيئة الصحراوية",
+      "description_ar": "تُدرج قلتة المياه – أكاكوس كسجل جذب مميز مستقل، مع جاهزية كاملة لإضافة الصور والمعلومات الموسمية والخصائص المائية وإرشادات الوصول والسلامة. توجد قلتات أخرى في قاعدة GeoJSON، لكن لا تتم مطابقة هذا السجل تلقائيًا معها لأن الاسم وحده غير كافٍ لإثبات الهوية المكانية.",
+      "tourism_values": [
+        "سياحة صحراوية",
+        "استكشاف",
+        "تصوير",
+        "توثيق مائي"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "Qalta Akakus",
+          "caption_ar": "قلتة مائية ضمن نطاق أكاكوس",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "note_ar": "الربط اليدوي مطلوب لتحديد القلتة الصحيحة."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-014",
+      "geojson_name": "بحيرات نوضا",
+      "name_ar": "بحيرات نوضا",
+      "name_en": "",
+      "aliases": [
+        "بحيرات نوضا",
+        "بحيرة نوضا",
+        "نوضا"
+      ],
+      "category": "البحيرات الطبيعية والصحراوية",
+      "group": "البحيرات والمسطحات الطبيعية",
+      "region_ar": "قيد التحقق",
+      "locality_ar": "قيد التحقق",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "مجموعة بحيرات طبيعية تحتاج تثبيت الربط المكاني",
+      "description_ar": "تُدرج بحيرات نوضا ضمن مجموعة البحيرات الطبيعية المميزة. وقد أكد المستخدم أن الملفين المسميين «noath» و«noath1» يعودان إلى بحيرات نوضا، ولذلك تم ربطهما إعلاميًا بالسجل. أما الربط المكاني مع GeoJSON فما زال يدويًا لأن الاسم لا يظهر بصورة مطابقة في قاعدة البيانات الحالية. تسمح البطاقة بعرض الصور والوصف والبيانات الفنية ومعلومات الوصول فور اعتمادها، مع إبقاء حالة الربط المكاني واضحة للمستخدم.",
+      "tourism_values": [
+        "سياحة طبيعية",
+        "تصوير",
+        "استكشاف",
+        "سياحة بيئية"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "noath",
+          "caption_ar": "مشهد من بحيرات نوضا",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "noath1",
+          "caption_ar": "مشهد إضافي لبحيرات نوضا",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "note_ar": "لا توجد مطابقة اسمية مؤكدة في GeoJSON الحالي."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-015",
+      "geojson_name": "بحيرة أم الماء",
+      "name_ar": "بحيرة أم الماء",
+      "name_en": "",
+      "aliases": [
+        "أم الماء",
+        "أم المام",
+        "ام الماء",
+        "ام المام",
+        "بحيرة أم الماء",
+        "بحيرة أم المام",
+        "بحيرة ام الماء",
+        "بحيرة ام المام"
+      ],
+      "category": "البحيرات الطبيعية والصحراوية",
+      "group": "البحيرات والمسطحات الطبيعية",
+      "region_ar": "قيد التحقق",
+      "locality_ar": "قيد التحقق",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "بحيرة طبيعية ضمن مجموعة المواقع الصحراوية",
+      "description_ar": "تُربط بحيرة أم الماء بسجلين مكانيين يحملان الاسم نفسه وإحداثيات متقاربة داخل GeoJSON. يحتفظ الإصدار V2.3 بجميع المطابقات ويعرضها كسجل جذب موحد، ما يسمح بمراجعة التكرار لاحقًا دون حذف أي سجل أصلي. البطاقة جاهزة لإضافة الصور والقياسات والخصائص البيئية ومعلومات الزيارة.",
+      "tourism_values": [
+        "سياحة صحراوية",
+        "تصوير طبيعي",
+        "استكشاف",
+        "سياحة بيئية"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "umm-alma",
+          "caption_ar": "مشهد لبحيرة أم الماء",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "umm-alma1",
+          "caption_ar": "مشهد إضافي لبحيرة أم الماء",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched_multiple",
+        "exact_names": [
+          "بحيرة أم الماء"
+        ],
+        "feature_ids": [
+          529,
+          530
+        ],
+        "note_ar": "يوجد سجلان مكانيان مطابقان؛ يتم الاحتفاظ بكليهما لحين المراجعة."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": [],
+      "coordinate_note_ar": "لم يوجد سجل باسم «بحيرة أم المام» حرفيًا في GeoJSON؛ تم ربط الاسم كمرادف بحثي ببحيرة أم الماء، التي لها سجلان مكانيان متقاربان."
+    },
+    {
+      "id": "LTA-FEAT-016",
+      "geojson_name": "بحيرة طرونة",
+      "name_ar": "بحيرة طرونة",
+      "name_en": "",
+      "aliases": [
+        "بحيرة طرونة",
+        "بحيرة الطرونة",
+        "طرونة"
+      ],
+      "category": "البحيرات الطبيعية والصحراوية",
+      "group": "البحيرات والمسطحات الطبيعية",
+      "region_ar": "قيد التحقق",
+      "locality_ar": "قيد التحقق",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "بحيرة طبيعية مرتبطة مباشرة بالسجل المكاني",
+      "description_ar": "تُدرج بحيرة طرونة كموقع جذب مميز مع مطابقة مباشرة للسجل الجغرافي. تعتمد البطاقة بنية موحدة للصور والوصف والمؤشرات وحالة التحقق والبيانات الوصفية، ما يسمح بإثراء الموقع تدريجيًا دون تعديل ملف GeoJSON الأساسي.",
+      "tourism_values": [
+        "سياحة طبيعية",
+        "تصوير",
+        "استكشاف",
+        "سياحة بيئية"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "lak-throna",
+          "caption_ar": "مشهد لبحيرة طرونة",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "lak-throna1",
+          "caption_ar": "مشهد إضافي لبحيرة طرونة",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "lak-throna2",
+          "caption_ar": "مشهد جوي أو إضافي لبحيرة طرونة",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched",
+        "exact_names": [
+          "بحيرة طرونة"
+        ],
+        "feature_ids": [
+          559
+        ],
+        "note_ar": "مطابقة مباشرة مع السجل المكاني."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-017",
+      "geojson_name": "البردي",
+      "name_ar": "البردي",
+      "name_en": "",
+      "aliases": [
+        "البردي"
+      ],
+      "category": "موقع طبيعي — التصنيف قيد التحقق",
+      "group": "مواقع تحتاج استكمال التصنيف",
+      "region_ar": "قيد التحقق",
+      "locality_ar": "قيد التحقق",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "موقع مميز يحتاج تثبيت التصنيف والربط المكاني",
+      "description_ar": "يُحفظ «البردي» داخل سجل المواقع المميزة مع حالة واضحة تفيد بأن التصنيف والربط المكاني ما زالا قيد التحقق. يتيح هذا الأسلوب إدراج الموقع في سير العمل دون اختلاق تصنيف أو إحداثيات غير مؤكدة. البطاقة جاهزة لاستقبال الصور والوصف والمصدر والخصائص الفنية فور اعتماد المعلومات الصحيحة.",
+      "tourism_values": [
+        "قيد التحديد"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "bardia",
+          "caption_ar": "مشهد من موقع البردي",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "note_ar": "يلزم تثبيت نوع الموقع والاسم المرجعي والإحداثيات."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "لا تُعتمد المؤشرات الكمية أو المعلومات الفنية النهائية إلا بعد مراجعة الجهة المختصة."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-018",
+      "geojson_name": "محمية وادي الكوف",
+      "name_ar": "محمية وادي الكوف",
+      "name_en": "Wadi al-Kuf Protected Area",
+      "aliases": [
+        "محمية وادي الكوف",
+        "وادي الكوف",
+        "Wadi al-Kuf",
+        "Wadi al Kuf"
+      ],
+      "category": "المحميات الطبيعية",
+      "group": "المحميات والموائل البيئية",
+      "region_ar": "الجبل الأخضر",
+      "locality_ar": "وادي الكوف",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "محمية طبيعية ومشهد بيئي مميز",
+      "description_ar": "تُضاف محمية وادي الكوف إلى سجل المواقع الطبيعية المميزة باعتبارها موقعًا بيئيًا وسياحيًا يستحق بطاقة مستقلة داخل الأطلس. تعتمد البطاقة نظامًا موحدًا لعرض الصور والوصف والخصائص السياحية والبيانات الوصفية وحالة الربط المكاني. توجد في قاعدة GeoJSON الحالية سجلات مرتبطة باسم وادي الكوف مثل الاستراحة والجسر والمنتجع، إلا أن النظام لا يربطها تلقائيًا بالمحمية نفسها حتى لا يخلط بين منشأة أو نقطة خدمية وبين النطاق المحمي. لذلك يبقى الربط النهائي يدويًا، مع الاحتفاظ بمعرفات السجلات المرشحة للمراجعة الفنية. الصورة المرتبطة بالموقع تعتمد اسم الملف الذي قدمه المستخدم بصورة صريحة.",
+      "tourism_values": [
+        "سياحة بيئية",
+        "مراقبة الطبيعة",
+        "تصوير",
+        "رحلات ميدانية"
+      ],
+      "metrics": [],
+      "images": [
+        {
+          "base": "Wadi al-Kuf",
+          "caption_ar": "مشهد من محمية وادي الكوف",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "manual",
+        "status": "pending_manual",
+        "exact_names": [],
+        "feature_ids": [],
+        "candidate_feature_ids": [
+          111,
+          123,
+          124,
+          160,
+          161
+        ],
+        "note_ar": "توجد سجلات تحمل اسم وادي الكوف، لكنها تمثل استراحة أو جسورًا أو منتجعات؛ يلزم تثبيت سجل أو نطاق المحمية الصحيح يدويًا."
+      },
+      "media_status": "available",
+      "verification": {
+        "status": "قيد المراجعة الفنية",
+        "note_ar": "يجب اعتماد حدود المحمية أو نقطة المرجع الرسمية قبل الربط النهائي."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "مرتفعة — قيد التحقق",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-019",
+      "geojson_name": "جسر وادي الكوف القديم",
+      "name_ar": "جسر وادي الكوف القديم",
+      "name_en": "Old Wadi al-Kuf Bridge",
+      "aliases": [
+        "جسر وادي الكوف القديم",
+        "الجسر القديم وادي الكوف",
+        "Old Wadi al-Kuf Bridge"
+      ],
+      "category": "معالم طبيعية وهندسية",
+      "group": "وادي الكوف والمعالم المرتبطة",
+      "region_ar": "الجبل الأخضر",
+      "locality_ar": "وادي الكوف",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "معلم هندسي تاريخي ضمن المشهد الطبيعي لوادي الكوف",
+      "description_ar": "تم العثور على سجل مطابق حرفيًا داخل قاعدة GeoJSON باسم «جسر وادي الكوف القديم». يرتبط السجل مباشرة بإحداثياته الأصلية في الأطلس، ويُعامل كموقع مستقل عن «محمية وادي الكوف» حتى لا تختلط هوية الجسر بنطاق المحمية. البطاقة جاهزة لإضافة الصور والتاريخ الهندسي ومعلومات الوصول وحالة السلامة والمصادر الرسمية.",
+      "tourism_values": [
+        "سياحة طبيعية",
+        "تراث هندسي",
+        "تصوير",
+        "مسارات الجبل الأخضر"
+      ],
+      "metrics": [
+        {
+          "label": "حالة الربط",
+          "value": "مطابقة مباشرة"
+        },
+        {
+          "label": "معرف GeoJSON",
+          "value": "124"
+        }
+      ],
+      "images": [],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched",
+        "exact_names": [
+          "جسر وادي الكوف القديم"
+        ],
+        "feature_ids": [
+          124
+        ],
+        "note_ar": "مطابقة حرفية ومباشرة مع السجل المكاني."
+      },
+      "subsites": [
+        {
+          "name_ar": "جسر وادي الكوف القديم",
+          "feature_id": 124,
+          "latitude": 32.6985923,
+          "longitude": 21.5745439,
+          "status": "مطابقة مباشرة من GeoJSON"
+        }
+      ],
+      "media_status": "awaiting_images",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "الإحداثيات مأخوذة من GeoJSON الخاص بالمشروع."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-020",
+      "geojson_name": "بحيرات الجغبوب",
+      "name_ar": "بحيرات الجغبوب",
+      "name_en": "Jaghbub Lakes",
+      "aliases": [
+        "بحيرات الجغبوب",
+        "بحيرات واحة الجغبوب",
+        "Jaghbub Lakes",
+        "بحيرة الجغبوب"
+      ],
+      "category": "البحيرات الطبيعية والصحراوية",
+      "group": "البحيرات والمسطحات الطبيعية",
+      "region_ar": "شرق ليبيا",
+      "locality_ar": "واحة الجغبوب",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "مجموعة بحيرات ملحية وطبيعية ضمن واحة الجغبوب",
+      "description_ar": "تم إنشاء سجل موحد لمجموعة بحيرات الجغبوب بعد مطابقة أسماء واردة في دراسة أكاديمية حديثة مع السجلات المكانية الموجودة في GeoJSON الخاص بالمشروع. تشمل المجموعة الأساسية: بحيرة الملفا، بحيرة الفريدغة، بحيرة العرايشة، وبحيرة العامرة. يحتفظ الأطلس بكل بحيرة كسجل مكاني مستقل، بينما تعرض البطاقة المجموعة كوجهة طبيعية وسياحية مترابطة. لم يتم اعتماد وصف «أكبر بحيرة» لأي منها لأن ملف النقاط لا يحتوي مساحات سطحية، كما أن المصدر الأكاديمي المستخدم لا يحدد الأكبر؛ لذلك يبقى تحديد الأكبر بحاجة إلى قياس GIS لمساحة المسطح المائي أو مرجع فني معتمد.",
+      "tourism_values": [
+        "سياحة علاجية",
+        "سياحة بيئية",
+        "تصوير طبيعي",
+        "رحلات استكشافية"
+      ],
+      "metrics": [
+        {
+          "label": "البحيرات الأساسية الموثقة",
+          "value": "4"
+        },
+        {
+          "label": "الأكبر مساحة",
+          "value": "قيد القياس GIS"
+        },
+        {
+          "label": "حالة الربط",
+          "value": "عدة سجلات مؤكدة"
+        }
+      ],
+      "images": [
+        {
+          "base": "lake-jaghbob",
+          "caption_ar": "مشهد من بحيرات الجغبوب",
+          "source_status": "user_confirmed_filename"
+        },
+        {
+          "base": "lake-jaghbob1",
+          "caption_ar": "مشهد إضافي من بحيرات الجغبوب",
+          "source_status": "user_confirmed_filename"
+        }
+      ],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched_multiple",
+        "exact_names": [
+          "بحيرة الملفا",
+          "بحيرة الفريدغة",
+          "بحيرة العرايشة",
+          "بحيرة العامرة"
+        ],
+        "feature_ids": [
+          545,
+          541,
+          536,
+          535
+        ],
+        "note_ar": "مطابقة أسماء الدراسة مع السجلات الجغرافية الموجودة في ملف المشروع."
+      },
+      "subsites": [
+        {
+          "name_ar": "بحيرة الملفا",
+          "feature_id": 545,
+          "latitude": 29.7452377,
+          "longitude": 24.783843,
+          "status": "مطابقة مباشرة"
+        },
+        {
+          "name_ar": "بحيرة الفريدغة",
+          "feature_id": 541,
+          "latitude": 29.6125282,
+          "longitude": 24.5068073,
+          "status": "مطابقة مباشرة"
+        },
+        {
+          "name_ar": "بحيرة العرايشة",
+          "feature_id": 536,
+          "latitude": 29.6094166666667,
+          "longitude": 24.8604444444445,
+          "status": "مطابقة مباشرة"
+        },
+        {
+          "name_ar": "بحيرة العامرة",
+          "feature_id": 535,
+          "latitude": 29.5871916,
+          "longitude": 24.6929741,
+          "status": "مطابقة مباشرة"
+        }
+      ],
+      "media_status": "available",
+      "verification": {
+        "status": "مطابقة مكانية مدعومة بمرجع أكاديمي",
+        "note_ar": "أسماء البحيرات الأربع مدعومة بدراسة منشورة سنة 2025، أما الإحداثيات فمن GeoJSON الخاص بالمشروع."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "مرتفعة — قيد التحقق",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": [
+        {
+          "title_ar": "مقومات التنمية المكانية المستدامة في واحة الجغبوب شرق ليبيا",
+          "publisher_ar": "مجلة العلوم الإنسانية والطبيعية",
+          "year": 2025,
+          "url": "https://www.hnjournal.net/ar/6-4-12/",
+          "note_ar": "تذكر الدراسة بحيرات الملفا والفريدغة والعرايشة والعامرة ضمن بحيرات واحة الجغبوب."
+        }
+      ]
+    },
+    {
+      "id": "LTA-FEAT-021",
+      "geojson_name": "بحيرة مافو",
+      "name_ar": "بحيرة مافو",
+      "name_en": "Mavo Lake",
+      "aliases": [
+        "بحيرة مافو",
+        "مافو",
+        "Mavo Lake",
+        "mahvo"
+      ],
+      "category": "البحيرات الطبيعية والصحراوية",
+      "group": "البحيرات والمسطحات الطبيعية",
+      "region_ar": "قيد التحقق",
+      "locality_ar": "قيد التحقق",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "بحيرة طبيعية مرتبطة مباشرة بالسجل المكاني",
+      "description_ar": "تم العثور على سجل مطابق حرفيًا داخل GeoJSON باسم «بحيرة مافو»، وربطه مباشرة بالإحداثيات. كما تم ربط ملف الصورة الأساسي «mahvo» بهذا الموقع باعتباره الاسم الأقرب المعتمد من المستخدم. تظل البيانات الفنية مثل المساحة والعمق والملوحة بحاجة إلى استكمال من مصدر مختص.",
+      "tourism_values": [
+        "سياحة طبيعية",
+        "تصوير",
+        "استكشاف",
+        "سياحة بيئية"
+      ],
+      "metrics": [
+        {
+          "label": "حالة الربط",
+          "value": "مطابقة مباشرة"
+        },
+        {
+          "label": "معرف GeoJSON",
+          "value": "563"
+        }
+      ],
+      "images": [
+        {
+          "base": "mahvo",
+          "caption_ar": "صورة مرتبطة ببحيرة مافو",
+          "source_status": "user_confirmed_context"
+        }
+      ],
+      "geojson_match": {
+        "mode": "exact",
+        "status": "matched",
+        "exact_names": [
+          "بحيرة مافو"
+        ],
+        "feature_ids": [
+          563
+        ],
+        "note_ar": "مطابقة مباشرة مع السجل المكاني."
+      },
+      "subsites": [
+        {
+          "name_ar": "بحيرة مافو",
+          "feature_id": 563,
+          "latitude": 26.7876249,
+          "longitude": 13.5072827,
+          "status": "مطابقة مباشرة"
+        }
+      ],
+      "media_status": "available",
+      "verification": {
+        "status": "مطابقة مكانية أولية",
+        "note_ar": "الإحداثيات مأخوذة من GeoJSON الخاص بالمشروع."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "قيد الاستكمال",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": []
+    },
+    {
+      "id": "LTA-FEAT-022",
+      "geojson_name": "شلال رأس هلال",
+      "name_ar": "شلالات رأس الهلال",
+      "name_en": "Ras al-Hilal Waterfalls",
+      "aliases": [
+        "شلال رأس هلال",
+        "شلالات رأس الهلال",
+        "شلال راس هلال",
+        "Ras al-Hilal Waterfalls"
+      ],
+      "category": "الشلالات والمظاهر المائية",
+      "group": "الأودية والقلتات والشلالات",
+      "region_ar": "الجبل الأخضر",
+      "locality_ar": "رأس الهلال",
+      "importance_level": "A",
+      "is_featured": true,
+      "subtitle_ar": "شلالات طبيعية ضمن نطاق رأس الهلال",
+      "description_ar": "لا يوجد في GeoJSON الحالي سجل يحمل الاسم «شلال رأس هلال» حرفيًا. لكن يوجد سجل شلال واضح باسم «شلال وادي مرقس» ضمن نطاق رأس الهلال، بالإضافة إلى سجلات وادي مرقس وعين رأس الهلال ومنتجع الينابيع الذي يذكر في وصفه مواقع شلالات قريبة. لذلك تم إدراج الإحداثية الحالية كمرشح ربط مكاني، وليس كاعتماد نهائي للاسم، إلى حين التحقق الميداني أو الحصول على نقطة رسمية تحمل اسم شلالات رأس الهلال.",
+      "tourism_values": [
+        "سياحة طبيعية",
+        "تصوير",
+        "تنزه",
+        "مسارات الجبل الأخضر"
+      ],
+      "metrics": [
+        {
+          "label": "حالة الربط",
+          "value": "مرشح يحتاج تحقق"
+        },
+        {
+          "label": "السجل المرشح",
+          "value": "شلال وادي مرقس"
+        }
+      ],
+      "images": [],
+      "geojson_match": {
+        "mode": "candidate",
+        "status": "candidate_match",
+        "exact_names": [
+          "شلال وادي مرقس"
+        ],
+        "feature_ids": [
+          130
+        ],
+        "related_feature_ids": [
+          492,
+          493,
+          788,
+          159
+        ],
+        "note_ar": "السجل 130 هو شلال وادي مرقس. توجد سجلات مرتبطة بوادي مرقس وعين رأس الهلال ومنتجع الينابيع. الربط باسم شلالات رأس الهلال يحتاج اعتمادًا."
+      },
+      "subsites": [
+        {
+          "name_ar": "شلال وادي مرقس — مرشح ربط لشلالات رأس الهلال",
+          "feature_id": 130,
+          "latitude": 32.8478912,
+          "longitude": 22.2109384,
+          "status": "مرشح يحتاج تحقق اسمي"
+        }
+      ],
+      "media_status": "awaiting_images",
+      "verification": {
+        "status": "مرشح ربط مكاني",
+        "note_ar": "مصدر عام يثبت وجود شلالات قرب رأس الهلال، لكن الإحداثية الدقيقة الحالية مأخوذة من سجل شلال وادي مرقس في GeoJSON وتحتاج تحققًا نهائيًا."
+      },
+      "metadata_template": {
+        "access": "قيد الاستكمال",
+        "best_visit_season": "قيد الاستكمال",
+        "services": "قيد الاستكمال",
+        "environmental_sensitivity": "مرتفعة — قيد التحقق",
+        "responsible_entity": "قيد الاستكمال",
+        "last_field_verification": null
+      },
+      "sources": [
+        {
+          "title_ar": "Ras al-Helal — Waterfalls",
+          "publisher_ar": "مرجع عام",
+          "url": "https://en.wikipedia.org/wiki/Ras_al-Helal",
+          "note_ar": "يوثق وجود شلالات قريبة من رأس الهلال، دون تقديم إحداثية دقيقة للشلال."
+        }
+      ]
+    }
+  ],
+  "media_policy": {
+    "base_name": "يمكن حفظ الصورة باسم أساسي دون امتداد داخل JSON.",
+    "extensions": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".webp",
+      ".JPG",
+      ".JPEG",
+      ".PNG",
+      ".WEBP"
+    ],
+    "fallback": "يحاول النظام الامتدادات بالتتابع ويخفي الصورة إذا لم يعثر على ملف صالح.",
+    "governance": "لا تُربط الصور إلا بناءً على اسم مؤكد أو اعتماد يدوي."
+  },
+  "coordinate_policy": {
+    "project_geojson": "الإحداثيات المباشرة تؤخذ من data/atlasnatrual.geojson.",
+    "matched_multiple": "يحفظ النظام جميع السجلات المتطابقة ولا يحذف التكرار قبل المراجعة.",
+    "candidate_match": "يُعرض كمرشح واضح ولا يُعامل كاعتماد نهائي.",
+    "largest_lake": "لا يُصنف أي مسطح مائي بأنه الأكبر اعتمادًا على نقاط GeoJSON فقط؛ يلزم قياس مساحة مضلع أو تحليل مرئيات فضائية أو مرجع فني."
+  }
+}

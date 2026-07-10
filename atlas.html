@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#062b5f">
+  <meta name="description" content="الخريطة التفاعلية لأطلس ليبيا السياحي - الموارد الطبيعية">
+  <title>الخريطة التفاعلية | أطلس ليبيا السياحي</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+
+  <link rel="stylesheet" href="assets/css/tokens.css?v=2.5.0">
+  <link rel="stylesheet" href="assets/css/main.css?v=2.5.0">
+  <link rel="stylesheet" href="assets/css/atlas.css?v=2.5.0">
+</head>
+
+<body class="atlas-page" data-release="2.5.0">
+  <div class="atlas-shell">
+
+    <aside class="sidebar" aria-label="لوحة التحكم">
+      <header class="sidebar__header">
+        <div class="header-line">
+          <div>
+            <div class="eyebrow">وزارة السياحة والصناعات التقليدية</div>
+            <h1>أطلس ليبيا السياحي</h1>
+            <p>الموارد الطبيعية</p>
+          </div>
+          <a href="index.html" class="home-button" title="العودة للواجهة">⌂</a>
+        </div>
+
+        <div class="badges">
+          <span>GIS</span>
+          <span>2026</span>
+          <span>945 نقطة</span>
+          <span>بيانات مكانية</span>
+        </div>
+      </header>
+
+      <section class="kpis" aria-label="مؤشرات سريعة">
+        <article>
+          <strong id="kpiTotal">0</strong>
+          <span>إجمالي النقاط</span>
+        </article>
+        <article>
+          <strong id="kpiVisible">0</strong>
+          <span>النقاط الظاهرة</span>
+        </article>
+        <article>
+          <strong id="kpiLayers">0</strong>
+          <span>الطبقات</span>
+        </article>
+      </section>
+
+      <nav class="tabs" aria-label="أقسام لوحة التحكم">
+        <button class="tab is-active" data-pane="searchPane">البحث</button>
+        <button class="tab" data-pane="layersPane">الطبقات</button>
+        <button class="tab" data-pane="featuredPane">مميزة</button>
+        <button class="tab" data-pane="resultsPane">النتائج</button>
+      </nav>
+
+      <section id="searchPane" class="pane is-active">
+        <div class="section-heading">
+          <h2>بحث متعدد المعايير</h2>
+          <button class="link-button" id="resetFilters">إعادة ضبط</button>
+        </div>
+
+        <div class="search-box">
+          <label class="field field--search">
+            <span>بحث عام</span>
+            <input
+              id="searchInput"
+              type="search"
+              autocomplete="off"
+              placeholder="اسم الموقع، الوصف، التصنيف، المصدر..."
+            >
+          </label>
+          <div id="suggestions" class="suggestions" hidden></div>
+        </div>
+
+        <div id="quickSearches" class="quick-searches"></div>
+
+        <div class="grid-2">
+          <label class="field">
+            <span>التصنيف</span>
+            <select id="categoryFilter">
+              <option value="">كل التصنيفات</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>الحالة</span>
+            <select id="statusFilter">
+              <option value="">كل الحالات</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="field">
+          <span>المصدر / المسار</span>
+          <select id="folderFilter">
+            <option value="">كل المسارات</option>
+          </select>
+        </label>
+
+        <label class="switch-row">
+          <input id="boundsOnly" type="checkbox">
+          <span>
+            <strong>البحث داخل نطاق الخريطة الحالي</strong>
+            <small>إظهار النقاط الموجودة فقط داخل الشاشة الحالية</small>
+          </span>
+        </label>
+
+        <div class="section-heading compact">
+          <h2>بحث مكاني اختياري</h2>
+        </div>
+
+        <div class="grid-3">
+          <label class="field">
+            <span>خط العرض</span>
+            <input id="latInput" inputmode="decimal" placeholder="32.8">
+          </label>
+          <label class="field">
+            <span>خط الطول</span>
+            <input id="lngInput" inputmode="decimal" placeholder="13.2">
+          </label>
+          <label class="field">
+            <span>كم</span>
+            <input id="radiusInput" inputmode="numeric" placeholder="50">
+          </label>
+        </div>
+
+        <div class="actions">
+          <button class="button button--primary" id="applySearch">تطبيق البحث</button>
+          <button class="button button--secondary" id="zoomVisible">تكبير للنتائج</button>
+        </div>
+      </section>
+
+      <section id="layersPane" class="pane">
+        <div class="section-heading">
+          <h2>الطبقات المصنفة</h2>
+          <div class="inline-actions">
+            <button class="link-button" id="showAllLayers">الكل</button>
+            <button class="link-button" id="hideAllLayers">إخفاء</button>
+          </div>
+        </div>
+
+        <div id="layerGroups" class="layer-groups"></div>
+
+        <div class="unmapped-layer-block" id="unmappedLayersBlock" hidden>
+          <h3>طبقات إضافية</h3>
+          <div id="unmappedLayers"></div>
+        </div>
+      </section>
+
+      <section id="featuredPane" class="pane">
+        <div class="section-heading">
+          <h2>مواقع جذب مميزة</h2>
+          <span id="featuredCount" class="count-badge">0</span>
+        </div>
+        <div id="featuredList" class="featured-list"></div>
+      </section>
+
+      <section id="resultsPane" class="pane">
+        <div class="section-heading">
+          <h2>نتائج البحث</h2>
+          <span id="resultCount" class="count-badge">0</span>
+        </div>
+
+        <div class="results-toolbar">
+          <select id="sortResults">
+            <option value="name">ترتيب حسب الاسم</option>
+            <option value="category">ترتيب حسب التصنيف</option>
+          </select>
+        </div>
+
+        <div id="resultsList" class="results-list"></div>
+      </section>
+
+      <footer class="sidebar__footer">
+        تصميم وتنفيذ مركز المعلومات والتوثيق السياحي © 2026
+      </footer>
+    </aside>
+
+    <main class="map-stage">
+
+      <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-card">
+          <span class="spinner spinner--dark"></span>
+          <strong>جاري تحميل بيانات الأطلس...</strong>
+          <small id="loadingMessage">تهيئة الخريطة والطبقات</small>
+        </div>
+      </div>
+
+      <div id="map" aria-label="خريطة أطلس ليبيا السياحي"></div>
+
+      <header class="map-header">
+        <div class="map-title-card">
+          <div class="map-title-row">
+            <div>
+              <h2>خريطة الموارد الطبيعية</h2>
+              <p>استكشاف المواقع والطبقات والبيانات الوصفية</p>
+            </div>
+            <span id="mapVisibleBadge" class="live-badge">0 نقطة</span>
+          </div>
+        </div>
+
+        <div class="map-tools">
+          <button data-basemap="osm">خريطة</button>
+          <button data-basemap="satellite">قمر صناعي</button>
+          <button data-basemap="terrain">طبوغرافية</button>
+          <button id="fitLibya">كامل ليبيا</button>
+          <button id="locateMe">موقعي</button>
+        </div>
+      </header>
+
+      <section class="map-legend" id="mapLegend" aria-label="مفتاح الخريطة">
+        <div class="legend-head">
+          <h3>مفتاح الطبقات</h3>
+          <button id="toggleLegend" aria-label="طي المفتاح">−</button>
+        </div>
+        <div id="legendList"></div>
+      </section>
+
+      <div class="map-footer-bar">
+        <span id="mouseCoordinates">—</span>
+        <span>أطلس ليبيا السياحي | GIS</span>
+      </div>
+
+      <aside id="detailDrawer" class="detail-drawer" aria-hidden="true">
+        <button id="closeDrawer" class="drawer-close" aria-label="إغلاق">×</button>
+        <div id="drawerContent"></div>
+      </aside>
+
+      <div id="imageLightbox" class="image-lightbox" hidden>
+        <button id="closeLightbox" class="lightbox-close" aria-label="إغلاق الصورة">×</button>
+        <img id="lightboxImage" alt="">
+        <div id="lightboxCaption"></div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script type="module" src="assets/js/atlas.js?v=2.5.0"></script>
+</body>
+</html>

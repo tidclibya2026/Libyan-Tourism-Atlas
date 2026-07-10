@@ -1,0 +1,7 @@
+Release: 2.3.0
+Featured sites: 17
+Matched or multi-matched: 9
+Pending manual: 8
+Unique IDs: 17
+Missing HTML IDs referenced by JS: []
+Expected missing IDs: []

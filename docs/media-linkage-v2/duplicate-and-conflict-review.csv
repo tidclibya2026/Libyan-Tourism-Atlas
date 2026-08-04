@@ -1,0 +1,7 @@
+attraction_id,attraction_name,feature_id,feature_name,feature_index,longitude,latitude,match_type,duplicate_group_size,review_status
+"LTA-FEAT-004","عين الدبوسية","709","عين الدبوسية","708","22.2100905","32.8470059","feature_id","2","requires_spatial_review"
+"LTA-FEAT-004","عين الدبوسية","710","عين الدبوسية","709","22.2805961","32.8335931","feature_id","2","requires_spatial_review"
+"LTA-FEAT-020","بحيرات الجغبوب","535","بحيرة العامرة","534","24.6929741","29.5871916","feature_id","4","requires_spatial_review"
+"LTA-FEAT-020","بحيرات الجغبوب","536","بحيرة العرايشة","535","24.8604444444445","29.6094166666667","feature_id","4","requires_spatial_review"
+"LTA-FEAT-020","بحيرات الجغبوب","541","بحيرة الفريدغة","540","24.5068073","29.6125282","feature_id","4","requires_spatial_review"
+"LTA-FEAT-020","بحيرات الجغبوب","545","بحيرة الملفا","544","24.783843","29.7452377","feature_id","4","requires_spatial_review"

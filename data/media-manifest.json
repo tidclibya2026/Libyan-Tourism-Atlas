@@ -1,6 +1,6 @@
 {
-  "version": "2.4.0",
-  "updated_at": "2026-07-10",
+  "version": "2.5.1",
+  "updated_at": "2026-08-05",
   "root": "assets/img/attractions",
   "confirmed_assignments": [
     {
@@ -144,7 +144,7 @@
     {
       "site_id": "LTA-FEAT-016",
       "site_name_ar": "بحيرة طرونة",
-      "base": "lak-throna1",
+      "base": "lak-throna2",
       "caption_ar": "مشهد إضافي لبحيرة طرونة"
     },
     {
@@ -175,6 +175,7 @@
   "notes": [
     "تم اعتماد noath و noath1 لبحيرات نوضا بناءً على تأكيد المستخدم.",
     "تمت إضافة Wadi al-Kuf إلى محمية وادي الكوف.",
-    "ملفات DJI القديمة لم تعد تستخدم بعد إعادة التسمية."
+    "ملفات DJI القديمة لم تعد تستخدم بعد إعادة التسمية.",
+    "تم تصحيح اسم صورة بحيرة طرونة من lak-throna1 إلى lak-throna2 بعد مطابقة الجرد المحلي."
   ]
 }

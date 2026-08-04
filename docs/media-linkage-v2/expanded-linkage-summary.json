@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "total_geojson_features": 945,
+  "attraction_records": 22,
+  "manifest_assignments": 27,
+  "linked_geojson_features": 18,
+  "linked_attractions": 14,
+  "linked_attractions_with_media": 7,
+  "total_image_references_applied": 27,
+  "unresolved_attractions": 8,
+  "duplicate_or_conflict_rows": 6,
+  "missing_media_files": 0,
+  "output_geojson": "data\\atlasnatrual-with-media.geojson",
+  "reports": {
+    "linkage": "docs/media-linkage-v2/expanded-linkage-report.csv",
+    "duplicates": "docs/media-linkage-v2/duplicate-and-conflict-review.csv",
+    "unresolved": "docs/media-linkage-v2/unresolved-attractions.csv",
+    "missing_media": "docs/media-linkage-v2/missing-media.csv",
+    "attraction_summary": "docs/media-linkage-v2/attraction-linkage-summary.csv"
+  }
+}

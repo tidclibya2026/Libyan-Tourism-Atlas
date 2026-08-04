@@ -2999,7 +2999,10 @@
         "images_json": "[]",
         "image_count": 0,
         "missing_images": [],
-        "media_status": "no_local_media"
+        "media_status": "matched_without_local_media",
+        "media_match_type": "feature_id",
+        "media_match_value": 124,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -3143,7 +3146,41 @@
         "status": "جاهز مبدئياً",
         "geometry_type": "Point",
         "coord_count": 1,
-        "source_type": "KML/XML"
+        "source_type": "KML/XML",
+        "attraction_id": "LTA-FEAT-022",
+        "name_en": "Ras al-Hilal Waterfalls",
+        "category_enriched": "الشلالات والمظاهر المائية",
+        "group_enriched": "الأودية والقلتات والشلالات",
+        "region_ar": "الجبل الأخضر",
+        "locality_ar": "رأس الهلال",
+        "importance_level": "A",
+        "is_featured": true,
+        "subtitle_ar": "شلالات طبيعية ضمن نطاق رأس الهلال",
+        "description_enriched": "لا يوجد في GeoJSON الحالي سجل يحمل الاسم «شلال رأس هلال» حرفيًا. لكن يوجد سجل شلال واضح باسم «شلال وادي مرقس» ضمن نطاق رأس الهلال، بالإضافة إلى سجلات وادي مرقس وعين رأس الهلال ومنتجع الينابيع الذي يذكر في وصفه مواقع شلالات قريبة. لذلك تم إدراج الإحداثية الحالية كمرشح ربط مكاني، وليس كاعتماد نهائي للاسم، إلى حين التحقق الميداني أو الحصول على نقطة رسمية تحمل اسم شلالات رأس الهلال.",
+        "tourism_values": [
+          "سياحة طبيعية",
+          "تصوير",
+          "تنزه",
+          "مسارات الجبل الأخضر"
+        ],
+        "metrics": [
+          {
+            "label": "حالة الربط",
+            "value": "مرشح يحتاج تحقق"
+          },
+          {
+            "label": "السجل المرشح",
+            "value": "شلال وادي مرقس"
+          }
+        ],
+        "images": [],
+        "images_json": "[]",
+        "image_count": 0,
+        "missing_images": [],
+        "media_status": "matched_without_local_media",
+        "media_match_type": "feature_id",
+        "media_match_value": 130,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -12740,21 +12777,24 @@
         "images": [
           {
             "src": "assets/img/attractions/umm-alma.jpeg",
-            "caption_ar": "مشهد لبحيرة أم الماء",
             "base": "umm-alma",
+            "caption_ar": "مشهد لبحيرة أم الماء",
             "source_status": "user_confirmed_filename"
           },
           {
-            "src": "assets/img/attractions/umm-alma1.jpg",
-            "caption_ar": "مشهد إضافي لبحيرة أم الماء",
+            "src": "assets/img/attractions/umm-alma1.JPG",
             "base": "umm-alma1",
+            "caption_ar": "مشهد إضافي لبحيرة أم الماء",
             "source_status": "user_confirmed_filename"
           }
         ],
-        "images_json": "[{\"src\":\"assets/img/attractions/umm-alma.jpeg\",\"caption_ar\":\"مشهد لبحيرة أم الماء\",\"base\":\"umm-alma\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/umm-alma1.jpg\",\"caption_ar\":\"مشهد إضافي لبحيرة أم الماء\",\"base\":\"umm-alma1\",\"source_status\":\"user_confirmed_filename\"}]",
+        "images_json": "[{\"src\":\"assets/img/attractions/umm-alma.jpeg\",\"base\":\"umm-alma\",\"caption_ar\":\"مشهد لبحيرة أم الماء\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/umm-alma1.JPG\",\"base\":\"umm-alma1\",\"caption_ar\":\"مشهد إضافي لبحيرة أم الماء\",\"source_status\":\"user_confirmed_filename\"}]",
         "image_count": 2,
         "missing_images": [],
-        "media_status": "linked"
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 529,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -12778,42 +12818,7 @@
         "status": "جاهز مبدئياً",
         "geometry_type": "Point",
         "coord_count": 1,
-        "source_type": "KML/XML",
-        "attraction_id": "LTA-FEAT-015",
-        "name_en": "",
-        "category_enriched": "البحيرات الطبيعية والصحراوية",
-        "group_enriched": "البحيرات والمسطحات الطبيعية",
-        "region_ar": "قيد التحقق",
-        "locality_ar": "قيد التحقق",
-        "importance_level": "A",
-        "is_featured": true,
-        "subtitle_ar": "بحيرة طبيعية ضمن مجموعة المواقع الصحراوية",
-        "description_enriched": "تُربط بحيرة أم الماء بسجلين مكانيين يحملان الاسم نفسه وإحداثيات متقاربة داخل GeoJSON. يحتفظ الإصدار V2.3 بجميع المطابقات ويعرضها كسجل جذب موحد، ما يسمح بمراجعة التكرار لاحقًا دون حذف أي سجل أصلي. البطاقة جاهزة لإضافة الصور والقياسات والخصائص البيئية ومعلومات الزيارة.",
-        "tourism_values": [
-          "سياحة صحراوية",
-          "تصوير طبيعي",
-          "استكشاف",
-          "سياحة بيئية"
-        ],
-        "metrics": [],
-        "images": [
-          {
-            "src": "assets/img/attractions/umm-alma.jpeg",
-            "caption_ar": "مشهد لبحيرة أم الماء",
-            "base": "umm-alma",
-            "source_status": "user_confirmed_filename"
-          },
-          {
-            "src": "assets/img/attractions/umm-alma1.jpg",
-            "caption_ar": "مشهد إضافي لبحيرة أم الماء",
-            "base": "umm-alma1",
-            "source_status": "user_confirmed_filename"
-          }
-        ],
-        "images_json": "[{\"src\":\"assets/img/attractions/umm-alma.jpeg\",\"caption_ar\":\"مشهد لبحيرة أم الماء\",\"base\":\"umm-alma\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/umm-alma1.jpg\",\"caption_ar\":\"مشهد إضافي لبحيرة أم الماء\",\"base\":\"umm-alma1\",\"source_status\":\"user_confirmed_filename\"}]",
-        "image_count": 2,
-        "missing_images": [],
-        "media_status": "linked"
+        "source_type": "KML/XML"
       },
       "geometry": {
         "type": "Point",
@@ -12933,7 +12938,58 @@
         "status": "جاهز مبدئياً",
         "geometry_type": "Point",
         "coord_count": 1,
-        "source_type": "KML/XML"
+        "source_type": "KML/XML",
+        "attraction_id": "LTA-FEAT-020",
+        "name_en": "Jaghbub Lakes",
+        "category_enriched": "البحيرات الطبيعية والصحراوية",
+        "group_enriched": "البحيرات والمسطحات الطبيعية",
+        "region_ar": "شرق ليبيا",
+        "locality_ar": "واحة الجغبوب",
+        "importance_level": "A",
+        "is_featured": true,
+        "subtitle_ar": "مجموعة بحيرات ملحية وطبيعية ضمن واحة الجغبوب",
+        "description_enriched": "تم إنشاء سجل موحد لمجموعة بحيرات الجغبوب بعد مطابقة أسماء واردة في دراسة أكاديمية حديثة مع السجلات المكانية الموجودة في GeoJSON الخاص بالمشروع. تشمل المجموعة الأساسية: بحيرة الملفا، بحيرة الفريدغة، بحيرة العرايشة، وبحيرة العامرة. يحتفظ الأطلس بكل بحيرة كسجل مكاني مستقل، بينما تعرض البطاقة المجموعة كوجهة طبيعية وسياحية مترابطة. لم يتم اعتماد وصف «أكبر بحيرة» لأي منها لأن ملف النقاط لا يحتوي مساحات سطحية، كما أن المصدر الأكاديمي المستخدم لا يحدد الأكبر؛ لذلك يبقى تحديد الأكبر بحاجة إلى قياس GIS لمساحة المسطح المائي أو مرجع فني معتمد.",
+        "tourism_values": [
+          "سياحة علاجية",
+          "سياحة بيئية",
+          "تصوير طبيعي",
+          "رحلات استكشافية"
+        ],
+        "metrics": [
+          {
+            "label": "البحيرات الأساسية الموثقة",
+            "value": "4"
+          },
+          {
+            "label": "الأكبر مساحة",
+            "value": "قيد القياس GIS"
+          },
+          {
+            "label": "حالة الربط",
+            "value": "عدة سجلات مؤكدة"
+          }
+        ],
+        "images": [
+          {
+            "src": "assets/img/attractions/lake-jaghbob.jpg",
+            "base": "lake-jaghbob",
+            "caption_ar": "مشهد من بحيرات الجغبوب",
+            "source_status": "user_confirmed_filename"
+          },
+          {
+            "src": "assets/img/attractions/lake-jaghbob1.JPG",
+            "base": "lake-jaghbob1",
+            "caption_ar": "مشهد إضافي من بحيرات الجغبوب",
+            "source_status": "user_confirmed_filename"
+          }
+        ],
+        "images_json": "[{\"src\":\"assets/img/attractions/lake-jaghbob.jpg\",\"base\":\"lake-jaghbob\",\"caption_ar\":\"مشهد من بحيرات الجغبوب\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/lake-jaghbob1.JPG\",\"base\":\"lake-jaghbob1\",\"caption_ar\":\"مشهد إضافي من بحيرات الجغبوب\",\"source_status\":\"user_confirmed_filename\"}]",
+        "image_count": 2,
+        "missing_images": [],
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 535,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -12957,7 +13013,58 @@
         "status": "جاهز مبدئياً",
         "geometry_type": "Point",
         "coord_count": 1,
-        "source_type": "KML/XML"
+        "source_type": "KML/XML",
+        "attraction_id": "LTA-FEAT-020",
+        "name_en": "Jaghbub Lakes",
+        "category_enriched": "البحيرات الطبيعية والصحراوية",
+        "group_enriched": "البحيرات والمسطحات الطبيعية",
+        "region_ar": "شرق ليبيا",
+        "locality_ar": "واحة الجغبوب",
+        "importance_level": "A",
+        "is_featured": true,
+        "subtitle_ar": "مجموعة بحيرات ملحية وطبيعية ضمن واحة الجغبوب",
+        "description_enriched": "تم إنشاء سجل موحد لمجموعة بحيرات الجغبوب بعد مطابقة أسماء واردة في دراسة أكاديمية حديثة مع السجلات المكانية الموجودة في GeoJSON الخاص بالمشروع. تشمل المجموعة الأساسية: بحيرة الملفا، بحيرة الفريدغة، بحيرة العرايشة، وبحيرة العامرة. يحتفظ الأطلس بكل بحيرة كسجل مكاني مستقل، بينما تعرض البطاقة المجموعة كوجهة طبيعية وسياحية مترابطة. لم يتم اعتماد وصف «أكبر بحيرة» لأي منها لأن ملف النقاط لا يحتوي مساحات سطحية، كما أن المصدر الأكاديمي المستخدم لا يحدد الأكبر؛ لذلك يبقى تحديد الأكبر بحاجة إلى قياس GIS لمساحة المسطح المائي أو مرجع فني معتمد.",
+        "tourism_values": [
+          "سياحة علاجية",
+          "سياحة بيئية",
+          "تصوير طبيعي",
+          "رحلات استكشافية"
+        ],
+        "metrics": [
+          {
+            "label": "البحيرات الأساسية الموثقة",
+            "value": "4"
+          },
+          {
+            "label": "الأكبر مساحة",
+            "value": "قيد القياس GIS"
+          },
+          {
+            "label": "حالة الربط",
+            "value": "عدة سجلات مؤكدة"
+          }
+        ],
+        "images": [
+          {
+            "src": "assets/img/attractions/lake-jaghbob.jpg",
+            "base": "lake-jaghbob",
+            "caption_ar": "مشهد من بحيرات الجغبوب",
+            "source_status": "user_confirmed_filename"
+          },
+          {
+            "src": "assets/img/attractions/lake-jaghbob1.JPG",
+            "base": "lake-jaghbob1",
+            "caption_ar": "مشهد إضافي من بحيرات الجغبوب",
+            "source_status": "user_confirmed_filename"
+          }
+        ],
+        "images_json": "[{\"src\":\"assets/img/attractions/lake-jaghbob.jpg\",\"base\":\"lake-jaghbob\",\"caption_ar\":\"مشهد من بحيرات الجغبوب\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/lake-jaghbob1.JPG\",\"base\":\"lake-jaghbob1\",\"caption_ar\":\"مشهد إضافي من بحيرات الجغبوب\",\"source_status\":\"user_confirmed_filename\"}]",
+        "image_count": 2,
+        "missing_images": [],
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 536,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -13077,7 +13184,58 @@
         "status": "جاهز مبدئياً",
         "geometry_type": "Point",
         "coord_count": 1,
-        "source_type": "KML/XML"
+        "source_type": "KML/XML",
+        "attraction_id": "LTA-FEAT-020",
+        "name_en": "Jaghbub Lakes",
+        "category_enriched": "البحيرات الطبيعية والصحراوية",
+        "group_enriched": "البحيرات والمسطحات الطبيعية",
+        "region_ar": "شرق ليبيا",
+        "locality_ar": "واحة الجغبوب",
+        "importance_level": "A",
+        "is_featured": true,
+        "subtitle_ar": "مجموعة بحيرات ملحية وطبيعية ضمن واحة الجغبوب",
+        "description_enriched": "تم إنشاء سجل موحد لمجموعة بحيرات الجغبوب بعد مطابقة أسماء واردة في دراسة أكاديمية حديثة مع السجلات المكانية الموجودة في GeoJSON الخاص بالمشروع. تشمل المجموعة الأساسية: بحيرة الملفا، بحيرة الفريدغة، بحيرة العرايشة، وبحيرة العامرة. يحتفظ الأطلس بكل بحيرة كسجل مكاني مستقل، بينما تعرض البطاقة المجموعة كوجهة طبيعية وسياحية مترابطة. لم يتم اعتماد وصف «أكبر بحيرة» لأي منها لأن ملف النقاط لا يحتوي مساحات سطحية، كما أن المصدر الأكاديمي المستخدم لا يحدد الأكبر؛ لذلك يبقى تحديد الأكبر بحاجة إلى قياس GIS لمساحة المسطح المائي أو مرجع فني معتمد.",
+        "tourism_values": [
+          "سياحة علاجية",
+          "سياحة بيئية",
+          "تصوير طبيعي",
+          "رحلات استكشافية"
+        ],
+        "metrics": [
+          {
+            "label": "البحيرات الأساسية الموثقة",
+            "value": "4"
+          },
+          {
+            "label": "الأكبر مساحة",
+            "value": "قيد القياس GIS"
+          },
+          {
+            "label": "حالة الربط",
+            "value": "عدة سجلات مؤكدة"
+          }
+        ],
+        "images": [
+          {
+            "src": "assets/img/attractions/lake-jaghbob.jpg",
+            "base": "lake-jaghbob",
+            "caption_ar": "مشهد من بحيرات الجغبوب",
+            "source_status": "user_confirmed_filename"
+          },
+          {
+            "src": "assets/img/attractions/lake-jaghbob1.JPG",
+            "base": "lake-jaghbob1",
+            "caption_ar": "مشهد إضافي من بحيرات الجغبوب",
+            "source_status": "user_confirmed_filename"
+          }
+        ],
+        "images_json": "[{\"src\":\"assets/img/attractions/lake-jaghbob.jpg\",\"base\":\"lake-jaghbob\",\"caption_ar\":\"مشهد من بحيرات الجغبوب\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/lake-jaghbob1.JPG\",\"base\":\"lake-jaghbob1\",\"caption_ar\":\"مشهد إضافي من بحيرات الجغبوب\",\"source_status\":\"user_confirmed_filename\"}]",
+        "image_count": 2,
+        "missing_images": [],
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 541,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -13173,7 +13331,58 @@
         "status": "جاهز مبدئياً",
         "geometry_type": "Point",
         "coord_count": 1,
-        "source_type": "KML/XML"
+        "source_type": "KML/XML",
+        "attraction_id": "LTA-FEAT-020",
+        "name_en": "Jaghbub Lakes",
+        "category_enriched": "البحيرات الطبيعية والصحراوية",
+        "group_enriched": "البحيرات والمسطحات الطبيعية",
+        "region_ar": "شرق ليبيا",
+        "locality_ar": "واحة الجغبوب",
+        "importance_level": "A",
+        "is_featured": true,
+        "subtitle_ar": "مجموعة بحيرات ملحية وطبيعية ضمن واحة الجغبوب",
+        "description_enriched": "تم إنشاء سجل موحد لمجموعة بحيرات الجغبوب بعد مطابقة أسماء واردة في دراسة أكاديمية حديثة مع السجلات المكانية الموجودة في GeoJSON الخاص بالمشروع. تشمل المجموعة الأساسية: بحيرة الملفا، بحيرة الفريدغة، بحيرة العرايشة، وبحيرة العامرة. يحتفظ الأطلس بكل بحيرة كسجل مكاني مستقل، بينما تعرض البطاقة المجموعة كوجهة طبيعية وسياحية مترابطة. لم يتم اعتماد وصف «أكبر بحيرة» لأي منها لأن ملف النقاط لا يحتوي مساحات سطحية، كما أن المصدر الأكاديمي المستخدم لا يحدد الأكبر؛ لذلك يبقى تحديد الأكبر بحاجة إلى قياس GIS لمساحة المسطح المائي أو مرجع فني معتمد.",
+        "tourism_values": [
+          "سياحة علاجية",
+          "سياحة بيئية",
+          "تصوير طبيعي",
+          "رحلات استكشافية"
+        ],
+        "metrics": [
+          {
+            "label": "البحيرات الأساسية الموثقة",
+            "value": "4"
+          },
+          {
+            "label": "الأكبر مساحة",
+            "value": "قيد القياس GIS"
+          },
+          {
+            "label": "حالة الربط",
+            "value": "عدة سجلات مؤكدة"
+          }
+        ],
+        "images": [
+          {
+            "src": "assets/img/attractions/lake-jaghbob.jpg",
+            "base": "lake-jaghbob",
+            "caption_ar": "مشهد من بحيرات الجغبوب",
+            "source_status": "user_confirmed_filename"
+          },
+          {
+            "src": "assets/img/attractions/lake-jaghbob1.JPG",
+            "base": "lake-jaghbob1",
+            "caption_ar": "مشهد إضافي من بحيرات الجغبوب",
+            "source_status": "user_confirmed_filename"
+          }
+        ],
+        "images_json": "[{\"src\":\"assets/img/attractions/lake-jaghbob.jpg\",\"base\":\"lake-jaghbob\",\"caption_ar\":\"مشهد من بحيرات الجغبوب\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/lake-jaghbob1.JPG\",\"base\":\"lake-jaghbob1\",\"caption_ar\":\"مشهد إضافي من بحيرات الجغبوب\",\"source_status\":\"user_confirmed_filename\"}]",
+        "image_count": 2,
+        "missing_images": [],
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 545,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -13529,27 +13738,25 @@
         "metrics": [],
         "images": [
           {
-            "src": "assets/img/attractions/lak-throna.jpg",
-            "caption_ar": "مشهد لبحيرة طرونة",
+            "src": "assets/img/attractions/lak-throna.jpeg",
             "base": "lak-throna",
+            "caption_ar": "مشهد لبحيرة طرونة",
             "source_status": "user_confirmed_filename"
           },
           {
-            "src": "assets/img/attractions/lak-throna2.jpg",
-            "caption_ar": "مشهد جوي أو إضافي لبحيرة طرونة",
+            "src": "assets/img/attractions/lak-throna2.JPG",
             "base": "lak-throna2",
-            "source_status": "user_confirmed_filename"
+            "caption_ar": "مشهد إضافي لبحيرة طرونة",
+            "source_status": "filename_corrected_after_local_inventory"
           }
         ],
-        "images_json": "[{\"src\":\"assets/img/attractions/lak-throna.jpg\",\"caption_ar\":\"مشهد لبحيرة طرونة\",\"base\":\"lak-throna\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/lak-throna2.jpg\",\"caption_ar\":\"مشهد جوي أو إضافي لبحيرة طرونة\",\"base\":\"lak-throna2\",\"source_status\":\"user_confirmed_filename\"}]",
+        "images_json": "[{\"src\":\"assets/img/attractions/lak-throna.jpeg\",\"base\":\"lak-throna\",\"caption_ar\":\"مشهد لبحيرة طرونة\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/lak-throna2.JPG\",\"base\":\"lak-throna2\",\"caption_ar\":\"مشهد إضافي لبحيرة طرونة\",\"source_status\":\"filename_corrected_after_local_inventory\"}]",
         "image_count": 2,
-        "missing_images": [
-          {
-            "base": "lak-throna1",
-            "caption_ar": "مشهد إضافي لبحيرة طرونة"
-          }
-        ],
-        "media_status": "linked"
+        "missing_images": [],
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 559,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -13611,27 +13818,30 @@
         "images": [
           {
             "src": "assets/img/attractions/gaberoun-01.jpg",
-            "caption_ar": "مشهد لبحيرة قبر عون",
             "base": "gaberoun-01",
+            "caption_ar": "مشهد لبحيرة قبر عون",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/gaberoun-02.jpg",
-            "caption_ar": "مشهد طبيعي لبحيرة قبر عون",
             "base": "gaberoun-02",
+            "caption_ar": "مشهد طبيعي لبحيرة قبر عون",
             "source_status": "user_confirmed_filename"
           },
           {
-            "src": "assets/img/attractions/gaberoun-023.jpg",
-            "caption_ar": "مشهد جوي للموقع",
+            "src": "assets/img/attractions/gaberoun-023.JPG",
             "base": "gaberoun-023",
+            "caption_ar": "مشهد جوي للموقع",
             "source_status": "user_confirmed_filename"
           }
         ],
-        "images_json": "[{\"src\":\"assets/img/attractions/gaberoun-01.jpg\",\"caption_ar\":\"مشهد لبحيرة قبر عون\",\"base\":\"gaberoun-01\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/gaberoun-02.jpg\",\"caption_ar\":\"مشهد طبيعي لبحيرة قبر عون\",\"base\":\"gaberoun-02\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/gaberoun-023.jpg\",\"caption_ar\":\"مشهد جوي للموقع\",\"base\":\"gaberoun-023\",\"source_status\":\"user_confirmed_filename\"}]",
+        "images_json": "[{\"src\":\"assets/img/attractions/gaberoun-01.jpg\",\"base\":\"gaberoun-01\",\"caption_ar\":\"مشهد لبحيرة قبر عون\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/gaberoun-02.jpg\",\"base\":\"gaberoun-02\",\"caption_ar\":\"مشهد طبيعي لبحيرة قبر عون\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/gaberoun-023.JPG\",\"base\":\"gaberoun-023\",\"caption_ar\":\"مشهد جوي للموقع\",\"source_status\":\"user_confirmed_filename\"}]",
         "image_count": 3,
         "missing_images": [],
-        "media_status": "linked"
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 560,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -13732,16 +13942,19 @@
         ],
         "images": [
           {
-            "src": "assets/img/attractions/mahvo.jpg",
-            "caption_ar": "صورة مرتبطة ببحيرة مافو",
+            "src": "assets/img/attractions/mahvo.JPG",
             "base": "mahvo",
+            "caption_ar": "صورة مرتبطة ببحيرة مافو",
             "source_status": "user_confirmed_context"
           }
         ],
-        "images_json": "[{\"src\":\"assets/img/attractions/mahvo.jpg\",\"caption_ar\":\"صورة مرتبطة ببحيرة مافو\",\"base\":\"mahvo\",\"source_status\":\"user_confirmed_context\"}]",
+        "images_json": "[{\"src\":\"assets/img/attractions/mahvo.JPG\",\"base\":\"mahvo\",\"caption_ar\":\"صورة مرتبطة ببحيرة مافو\",\"source_status\":\"user_confirmed_context\"}]",
         "image_count": 1,
         "missing_images": [],
-        "media_status": "linked"
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 563,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -13995,51 +14208,54 @@
         "images": [
           {
             "src": "assets/img/attractions/wau-namus-01.jpg",
-            "caption_ar": "مشهد من واو الناموس",
             "base": "wau-namus-01",
+            "caption_ar": "مشهد من واو الناموس",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/wau-namus-02.jpg",
-            "caption_ar": "مشهد طبيعي من الموقع",
             "base": "wau-namus-02",
+            "caption_ar": "مشهد طبيعي من الموقع",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/wau-namus-03.jpg",
-            "caption_ar": "تفاصيل المشهد الجيومورفولوجي",
             "base": "wau-namus-03",
+            "caption_ar": "تفاصيل المشهد الجيومورفولوجي",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/wau-namus-04.jpg",
-            "caption_ar": "مشهد مائي ضمن نطاق الموقع",
             "base": "wau-namus-04",
+            "caption_ar": "مشهد مائي ضمن نطاق الموقع",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/wau-namus5.jpg",
-            "caption_ar": "صورة إضافية من واو الناموس",
             "base": "wau-namus5",
+            "caption_ar": "صورة إضافية من واو الناموس",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/wow alnamos.jpg",
-            "caption_ar": "مشهد إضافي من الموقع",
             "base": "wow alnamos",
+            "caption_ar": "مشهد إضافي من الموقع",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/wow alnamos1.jpg",
-            "caption_ar": "مشهد إضافي من الموقع",
             "base": "wow alnamos1",
+            "caption_ar": "مشهد إضافي من الموقع",
             "source_status": "user_confirmed_filename"
           }
         ],
-        "images_json": "[{\"src\":\"assets/img/attractions/wau-namus-01.jpg\",\"caption_ar\":\"مشهد من واو الناموس\",\"base\":\"wau-namus-01\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wau-namus-02.jpg\",\"caption_ar\":\"مشهد طبيعي من الموقع\",\"base\":\"wau-namus-02\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wau-namus-03.jpg\",\"caption_ar\":\"تفاصيل المشهد الجيومورفولوجي\",\"base\":\"wau-namus-03\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wau-namus-04.jpg\",\"caption_ar\":\"مشهد مائي ضمن نطاق الموقع\",\"base\":\"wau-namus-04\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wau-namus5.jpg\",\"caption_ar\":\"صورة إضافية من واو الناموس\",\"base\":\"wau-namus5\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wow alnamos.jpg\",\"caption_ar\":\"مشهد إضافي من الموقع\",\"base\":\"wow alnamos\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wow alnamos1.jpg\",\"caption_ar\":\"مشهد إضافي من الموقع\",\"base\":\"wow alnamos1\",\"source_status\":\"user_confirmed_filename\"}]",
+        "images_json": "[{\"src\":\"assets/img/attractions/wau-namus-01.jpg\",\"base\":\"wau-namus-01\",\"caption_ar\":\"مشهد من واو الناموس\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wau-namus-02.jpg\",\"base\":\"wau-namus-02\",\"caption_ar\":\"مشهد طبيعي من الموقع\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wau-namus-03.jpg\",\"base\":\"wau-namus-03\",\"caption_ar\":\"تفاصيل المشهد الجيومورفولوجي\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wau-namus-04.jpg\",\"base\":\"wau-namus-04\",\"caption_ar\":\"مشهد مائي ضمن نطاق الموقع\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wau-namus5.jpg\",\"base\":\"wau-namus5\",\"caption_ar\":\"صورة إضافية من واو الناموس\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wow alnamos.jpg\",\"base\":\"wow alnamos\",\"caption_ar\":\"مشهد إضافي من الموقع\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/wow alnamos1.jpg\",\"base\":\"wow alnamos1\",\"caption_ar\":\"مشهد إضافي من الموقع\",\"source_status\":\"user_confirmed_filename\"}]",
         "image_count": 7,
         "missing_images": [],
-        "media_status": "linked"
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 572,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -15933,7 +16149,10 @@
         "images_json": "[]",
         "image_count": 0,
         "missing_images": [],
-        "media_status": "no_local_media"
+        "media_status": "matched_without_local_media",
+        "media_match_type": "feature_id",
+        "media_match_value": 650,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -16123,7 +16342,10 @@
         "images_json": "[]",
         "image_count": 0,
         "missing_images": [],
-        "media_status": "no_local_media"
+        "media_status": "matched_without_local_media",
+        "media_match_type": "feature_id",
+        "media_match_value": 657,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -17391,22 +17613,25 @@
         "metrics": [],
         "images": [
           {
-            "src": "assets/img/attractions/eyn aldhabose.jpg",
-            "caption_ar": "مشهد من عين الدبوسية",
+            "src": "assets/img/attractions/eyn aldhabose.JPG",
             "base": "eyn aldhabose",
+            "caption_ar": "مشهد من عين الدبوسية",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/eyn-aldhabose1.jpeg",
-            "caption_ar": "تفاصيل طبيعية لعين الدبوسية",
             "base": "eyn-aldhabose1",
+            "caption_ar": "تفاصيل طبيعية لعين الدبوسية",
             "source_status": "user_confirmed_filename"
           }
         ],
-        "images_json": "[{\"src\":\"assets/img/attractions/eyn aldhabose.jpg\",\"caption_ar\":\"مشهد من عين الدبوسية\",\"base\":\"eyn aldhabose\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/eyn-aldhabose1.jpeg\",\"caption_ar\":\"تفاصيل طبيعية لعين الدبوسية\",\"base\":\"eyn-aldhabose1\",\"source_status\":\"user_confirmed_filename\"}]",
+        "images_json": "[{\"src\":\"assets/img/attractions/eyn aldhabose.JPG\",\"base\":\"eyn aldhabose\",\"caption_ar\":\"مشهد من عين الدبوسية\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/eyn-aldhabose1.jpeg\",\"base\":\"eyn-aldhabose1\",\"caption_ar\":\"تفاصيل طبيعية لعين الدبوسية\",\"source_status\":\"user_confirmed_filename\"}]",
         "image_count": 2,
         "missing_images": [],
-        "media_status": "linked"
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 709,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -17450,22 +17675,25 @@
         "metrics": [],
         "images": [
           {
-            "src": "assets/img/attractions/eyn aldhabose.jpg",
-            "caption_ar": "مشهد من عين الدبوسية",
+            "src": "assets/img/attractions/eyn aldhabose.JPG",
             "base": "eyn aldhabose",
+            "caption_ar": "مشهد من عين الدبوسية",
             "source_status": "user_confirmed_filename"
           },
           {
             "src": "assets/img/attractions/eyn-aldhabose1.jpeg",
-            "caption_ar": "تفاصيل طبيعية لعين الدبوسية",
             "base": "eyn-aldhabose1",
+            "caption_ar": "تفاصيل طبيعية لعين الدبوسية",
             "source_status": "user_confirmed_filename"
           }
         ],
-        "images_json": "[{\"src\":\"assets/img/attractions/eyn aldhabose.jpg\",\"caption_ar\":\"مشهد من عين الدبوسية\",\"base\":\"eyn aldhabose\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/eyn-aldhabose1.jpeg\",\"caption_ar\":\"تفاصيل طبيعية لعين الدبوسية\",\"base\":\"eyn-aldhabose1\",\"source_status\":\"user_confirmed_filename\"}]",
+        "images_json": "[{\"src\":\"assets/img/attractions/eyn aldhabose.JPG\",\"base\":\"eyn aldhabose\",\"caption_ar\":\"مشهد من عين الدبوسية\",\"source_status\":\"user_confirmed_filename\"},{\"src\":\"assets/img/attractions/eyn-aldhabose1.jpeg\",\"base\":\"eyn-aldhabose1\",\"caption_ar\":\"تفاصيل طبيعية لعين الدبوسية\",\"source_status\":\"user_confirmed_filename\"}]",
         "image_count": 2,
         "missing_images": [],
-        "media_status": "linked"
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 710,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -17681,7 +17909,32 @@
         "status": "جاهز مبدئياً",
         "geometry_type": "Point",
         "coord_count": 1,
-        "source_type": "KML/XML"
+        "source_type": "KML/XML",
+        "attraction_id": "LTA-FEAT-008",
+        "name_en": "",
+        "category_enriched": "العيون الطبيعية",
+        "group_enriched": "العيون والينابيع",
+        "region_ar": "قيد التحقق",
+        "locality_ar": "قيد التحقق",
+        "importance_level": "A",
+        "is_featured": true,
+        "subtitle_ar": "موقع مائي طبيعي يحتاج تثبيت الربط المكاني",
+        "description_enriched": "يُدرج جادور عين الزرقاء كسجل جذب مميز جاهز لاستقبال الصور والبيانات الفنية والوصف السياحي. توجد أسماء متشابهة داخل قاعدة البيانات، لكن لا تُستخدم المطابقة التقريبية تلقائيًا لأن التشابه اللفظي لا يثبت وحدة الموقع. لذلك يبقى الربط المكاني في وضع يدوي إلى حين اعتماد النقطة الصحيحة.",
+        "tourism_values": [
+          "استكشاف",
+          "تصوير",
+          "سياحة طبيعية",
+          "توثيق مائي"
+        ],
+        "metrics": [],
+        "images": [],
+        "images_json": "[]",
+        "image_count": 0,
+        "missing_images": [],
+        "media_status": "matched_without_local_media",
+        "media_match_type": "feature_id",
+        "media_match_value": 719,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -18135,7 +18388,10 @@
         "images_json": "[]",
         "image_count": 0,
         "missing_images": [],
-        "media_status": "no_local_media"
+        "media_status": "matched_without_local_media",
+        "media_match_type": "feature_id",
+        "media_match_value": 737,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",
@@ -20557,7 +20813,10 @@
         "images_json": "[]",
         "image_count": 0,
         "missing_images": [],
-        "media_status": "no_local_media"
+        "media_status": "matched_without_local_media",
+        "media_match_type": "feature_id",
+        "media_match_value": 837,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",

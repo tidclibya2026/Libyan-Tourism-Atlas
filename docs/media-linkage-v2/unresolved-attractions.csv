@@ -1,0 +1,9 @@
+attraction_id,attraction_name,geojson_name,match_mode,match_status,feature_ids,exact_names,aliases,image_count,action
+"LTA-FEAT-003","محمية الطيور المهاجرة – المرج","محمية الطيور المهاجرة المرج","manual","pending_manual","","","محمية الطيور المهاجرة المرج|محمية الطيور بالمرج|طيور مهاجرة المرج|المرج للطيور المهاجرة","1","manual_geojson_link_required"
+"LTA-FEAT-005","شلال بالفو","شلال بالفو","manual","pending_manual","","","شلال بالفو|بالفو|شلال وادي بالفو","2","manual_geojson_link_required"
+"LTA-FEAT-010","وادي موجهاج – أكاكوس","وادي موجهاج اكاكوس","manual","pending_manual","","","وادي موجهاج|موجهاج|وادي موجهاج اكاكوس|وادي موجهاج أكاكوس","0","manual_geojson_link_required"
+"LTA-FEAT-011","بحيرة الجغبوب","بحيرة الجغبوب","manual","pending_manual","","","بحيرة الجغبوب|الجغبوب بحيرة","2","manual_geojson_link_required"
+"LTA-FEAT-013","قلتة المياه – أكاكوس","قلتة المياه اكاكوس","manual","pending_manual","","","قلتة المياه|قلتة المياه اكاكوس|قلتة المياه أكاكوس|قلتة أكاكوس","1","manual_geojson_link_required"
+"LTA-FEAT-014","بحيرات نوضا","بحيرات نوضا","manual","pending_manual","","","بحيرات نوضا|بحيرة نوضا|نوضا","2","manual_geojson_link_required"
+"LTA-FEAT-017","البردي","البردي","manual","pending_manual","","","البردي","1","manual_geojson_link_required"
+"LTA-FEAT-018","محمية وادي الكوف","محمية وادي الكوف","manual","pending_manual","","","محمية وادي الكوف|وادي الكوف|Wadi al-Kuf|Wadi al Kuf","1","manual_geojson_link_required"

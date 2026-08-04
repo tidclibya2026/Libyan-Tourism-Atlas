@@ -1,0 +1,100 @@
+
+attraction_id   : LTA-FEAT-003
+attraction_name : محمية الطيور المهاجرة – المرج
+geojson_name    : محمية الطيور المهاجرة المرج
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : محمية الطيور المهاجرة المرج|محمية الطيور بالمرج|طيور مهاجرة المرج|المرج للطيور المهاجرة
+image_count     : 1
+action          : manual_geojson_link_required
+
+attraction_id   : LTA-FEAT-005
+attraction_name : شلال بالفو
+geojson_name    : شلال بالفو
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : شلال بالفو|بالفو|شلال وادي بالفو
+image_count     : 2
+action          : manual_geojson_link_required
+
+attraction_id   : LTA-FEAT-008
+attraction_name : جادور عين الزرقاء
+geojson_name    : جادور عين الزرقاء
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : جادور عين الزرقاء|عين الزرقاء|جادور|جادور الزرقاء
+image_count     : 0
+action          : manual_geojson_link_required
+
+attraction_id   : LTA-FEAT-010
+attraction_name : وادي موجهاج – أكاكوس
+geojson_name    : وادي موجهاج اكاكوس
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : وادي موجهاج|موجهاج|وادي موجهاج اكاكوس|وادي موجهاج أكاكوس
+image_count     : 0
+action          : manual_geojson_link_required
+
+attraction_id   : LTA-FEAT-011
+attraction_name : بحيرة الجغبوب
+geojson_name    : بحيرة الجغبوب
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : بحيرة الجغبوب|الجغبوب بحيرة
+image_count     : 2
+action          : manual_geojson_link_required
+
+attraction_id   : LTA-FEAT-013
+attraction_name : قلتة المياه – أكاكوس
+geojson_name    : قلتة المياه اكاكوس
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : قلتة المياه|قلتة المياه اكاكوس|قلتة المياه أكاكوس|قلتة أكاكوس
+image_count     : 1
+action          : manual_geojson_link_required
+
+attraction_id   : LTA-FEAT-014
+attraction_name : بحيرات نوضا
+geojson_name    : بحيرات نوضا
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : بحيرات نوضا|بحيرة نوضا|نوضا
+image_count     : 2
+action          : manual_geojson_link_required
+
+attraction_id   : LTA-FEAT-017
+attraction_name : البردي
+geojson_name    : البردي
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : البردي
+image_count     : 1
+action          : manual_geojson_link_required
+
+attraction_id   : LTA-FEAT-018
+attraction_name : محمية وادي الكوف
+geojson_name    : محمية وادي الكوف
+match_mode      : manual
+match_status    : pending_manual
+feature_ids     : 
+exact_names     : 
+aliases         : محمية وادي الكوف|وادي الكوف|Wadi al-Kuf|Wadi al Kuf
+image_count     : 1
+action          : manual_geojson_link_required
+

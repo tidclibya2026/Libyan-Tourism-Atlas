@@ -1,5 +1,5 @@
 export const CONFIG = Object.freeze({
-  dataUrl: "data/atlasnatrual.geojson",
+  dataUrl: "data/atlasnatrual-with-media.geojson",
   attractionsUrl: "data/attractions.json",
 
   initialView: {
@@ -74,3 +74,4 @@ export const CONFIG = Object.freeze({
     }
   ]
 });
+

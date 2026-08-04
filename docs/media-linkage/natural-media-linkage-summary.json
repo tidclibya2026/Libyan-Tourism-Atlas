@@ -1,0 +1,10 @@
+{
+  "total_geojson_features": 945,
+  "attraction_records": 22,
+  "manifest_assignments": 27,
+  "linked_features": 8,
+  "linked_images": 21,
+  "missing_images": 1,
+  "output_geojson": "data\\atlasnatrual-with-media.geojson",
+  "report": "docs\\media-linkage\\natural-media-linkage-report.csv"
+}

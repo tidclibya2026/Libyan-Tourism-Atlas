@@ -5,7 +5,7 @@ attraction_id,attraction_name,feature_id,feature_name,feature_index,match_type,m
 "LTA-FEAT-004","عين الدبوسية","710","عين الدبوسية","709","feature_id","710","2","0","linked_with_media"
 "LTA-FEAT-006","سد وادي كعام","657","سد وادي كعام","656","feature_id","657","0","0","linked_without_media"
 "LTA-FEAT-007","سد وادي الوشكة","650","سد وادي الوشكة","649","feature_id","650","0","0","linked_without_media"
-"LTA-FEAT-008","جادور عين الزرقاء","719","عين الزرقاء أو عين أم اقديح","718","feature_id","719","0","0","linked_without_media"
+"LTA-FEAT-008","عين الزرقاء جادو","719","عين الزرقاء أو عين أم اقديح","718","feature_id","719","0","0","linked_without_media"
 "LTA-FEAT-009","عين الفرس – غدامس","737","عين الفرس","736","feature_id","737","0","0","linked_without_media"
 "LTA-FEAT-012","نبع أبولو – شحات","837","نبع أبولو","836","feature_id","837","0","0","linked_without_media"
 "LTA-FEAT-015","بحيرة أم الماء","529","بحيرة أم الماء","528","feature_id","529","2","0","linked_with_media"

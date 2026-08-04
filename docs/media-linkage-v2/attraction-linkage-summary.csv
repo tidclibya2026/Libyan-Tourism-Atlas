@@ -6,7 +6,7 @@ attraction_id,attraction_name,candidate_count,accepted_feature_count,conflict_co
 "LTA-FEAT-005","شلال بالفو","0","0","0","2","0","media_ready_geojson_unresolved"
 "LTA-FEAT-006","سد وادي كعام","1","1","0","0","0","linked_without_media"
 "LTA-FEAT-007","سد وادي الوشكة","1","1","0","0","0","linked_without_media"
-"LTA-FEAT-008","جادور عين الزرقاء","1","1","0","0","0","linked_without_media"
+"LTA-FEAT-008","عين الزرقاء جادو","1","1","0","0","0","linked_without_media"
 "LTA-FEAT-009","عين الفرس – غدامس","1","1","0","0","0","linked_without_media"
 "LTA-FEAT-010","وادي موجهاج – أكاكوس","0","0","0","0","0","unresolved"
 "LTA-FEAT-011","بحيرة الجغبوب","0","0","0","2","0","media_ready_geojson_unresolved"

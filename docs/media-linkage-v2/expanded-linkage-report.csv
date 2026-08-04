@@ -10,6 +10,7 @@ attraction_id,attraction_name,feature_id,feature_name,feature_index,match_type,m
 "LTA-FEAT-012","نبع أبولو – شحات","837","نبع أبولو","836","feature_id","837","0","0","linked_without_media"
 "LTA-FEAT-015","بحيرة أم الماء","529","بحيرة أم الماء","528","feature_id","529","2","0","linked_with_media"
 "LTA-FEAT-016","بحيرة طرونة","559","بحيرة طرونة","558","feature_id","559","2","0","linked_with_media"
+"LTA-FEAT-017","خليج البردي","667","خليج بمبة","666","feature_id","667","1","0","linked_with_media"
 "LTA-FEAT-019","جسر وادي الكوف القديم","124","جسر وادي الكوف القديم","123","feature_id","124","0","0","linked_without_media"
 "LTA-FEAT-020","بحيرات الجغبوب","535","بحيرة العامرة","534","feature_id","535","2","0","linked_with_media"
 "LTA-FEAT-020","بحيرات الجغبوب","536","بحيرة العرايشة","535","feature_id","536","2","0","linked_with_media"

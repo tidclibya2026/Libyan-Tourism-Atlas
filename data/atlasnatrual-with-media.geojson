@@ -16585,7 +16585,36 @@
         "status": "جاهز مبدئياً",
         "geometry_type": "Point",
         "coord_count": 1,
-        "source_type": "KML/XML"
+        "source_type": "KML/XML",
+        "attraction_id": "LTA-FEAT-017",
+        "name_en": "",
+        "category_enriched": "موقع طبيعي — التصنيف قيد التحقق",
+        "group_enriched": "مواقع تحتاج استكمال التصنيف",
+        "region_ar": "قيد التحقق",
+        "locality_ar": "قيد التحقق",
+        "importance_level": "A",
+        "is_featured": true,
+        "subtitle_ar": "موقع مميز يحتاج تثبيت التصنيف والربط المكاني",
+        "description_enriched": "يُحفظ «البردي» داخل سجل المواقع المميزة مع حالة واضحة تفيد بأن التصنيف والربط المكاني ما زالا قيد التحقق. يتيح هذا الأسلوب إدراج الموقع في سير العمل دون اختلاق تصنيف أو إحداثيات غير مؤكدة. البطاقة جاهزة لاستقبال الصور والوصف والمصدر والخصائص الفنية فور اعتماد المعلومات الصحيحة.",
+        "tourism_values": [
+          "قيد التحديد"
+        ],
+        "metrics": [],
+        "images": [
+          {
+            "src": "assets/img/attractions/bardia.JPG",
+            "base": "bardia",
+            "caption_ar": "مشهد من موقع البردي",
+            "source_status": "user_confirmed_filename"
+          }
+        ],
+        "images_json": "[{\"src\":\"assets/img/attractions/bardia.JPG\",\"base\":\"bardia\",\"caption_ar\":\"مشهد من موقع البردي\",\"source_status\":\"user_confirmed_filename\"}]",
+        "image_count": 1,
+        "missing_images": [],
+        "media_status": "linked",
+        "media_match_type": "feature_id",
+        "media_match_value": 667,
+        "media_linkage_version": "2.0.0"
       },
       "geometry": {
         "type": "Point",

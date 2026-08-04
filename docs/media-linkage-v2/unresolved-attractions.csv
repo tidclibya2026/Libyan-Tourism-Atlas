@@ -5,5 +5,4 @@ attraction_id,attraction_name,geojson_name,match_mode,match_status,feature_ids,e
 "LTA-FEAT-011","بحيرة الجغبوب","بحيرة الجغبوب","manual","pending_manual","","","بحيرة الجغبوب|الجغبوب بحيرة","2","manual_geojson_link_required"
 "LTA-FEAT-013","قلتة المياه – أكاكوس","قلتة المياه اكاكوس","manual","pending_manual","","","قلتة المياه|قلتة المياه اكاكوس|قلتة المياه أكاكوس|قلتة أكاكوس","1","manual_geojson_link_required"
 "LTA-FEAT-014","بحيرات نوضا","بحيرات نوضا","manual","pending_manual","","","بحيرات نوضا|بحيرة نوضا|نوضا","2","manual_geojson_link_required"
-"LTA-FEAT-017","البردي","البردي","manual","pending_manual","","","البردي","1","manual_geojson_link_required"
 "LTA-FEAT-018","محمية وادي الكوف","محمية وادي الكوف","manual","pending_manual","","","محمية وادي الكوف|وادي الكوف|Wadi al-Kuf|Wadi al Kuf","1","manual_geojson_link_required"

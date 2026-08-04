@@ -15,7 +15,7 @@ attraction_id,attraction_name,candidate_count,accepted_feature_count,conflict_co
 "LTA-FEAT-014","بحيرات نوضا","0","0","0","2","0","media_ready_geojson_unresolved"
 "LTA-FEAT-015","بحيرة أم الماء","1","1","0","2","0","linked_with_media"
 "LTA-FEAT-016","بحيرة طرونة","1","1","0","2","0","linked_with_media"
-"LTA-FEAT-017","البردي","0","0","0","1","0","media_ready_geojson_unresolved"
+"LTA-FEAT-017","خليج البردي","1","1","0","1","0","linked_with_media"
 "LTA-FEAT-018","محمية وادي الكوف","0","0","0","1","0","media_ready_geojson_unresolved"
 "LTA-FEAT-019","جسر وادي الكوف القديم","1","1","0","0","0","linked_without_media"
 "LTA-FEAT-020","بحيرات الجغبوب","4","4","0","2","0","linked_with_media"
